@@ -260,7 +260,7 @@ class Dashboard extends Component {
     ) {
       return (
         <Popup
-          title="Introduction to the platform"
+          title="Projects of National Interest (PONI) Mapping Platform"
           theme="dark"
           isOpen={
             app.flags.isIntropopup && searchParams.get("cover") !== "false"
