@@ -7,7 +7,7 @@
   z-index: $map-overlay;
   border-radius: 6px;
   overflow: hidden;
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 9px;
 
@@ -55,5 +55,9 @@
       font-size: calc(#{$normal} * 1.5 - 4pt);
       font-family: $mainfont;
     }
+  }
+
+  .satellite-overlay-toggle-button:not(.native-toggle) {
+    display: none;
   }
 }
