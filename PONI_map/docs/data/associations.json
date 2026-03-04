@@ -30,6 +30,16 @@
         ]
     },
     {
+        "id": "asc4",  
+        "title": "Critical Minerals",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Project Type",
+            "Critical Minerals"
+        ]
+    },
+    {
         "id": "asc5",
          "title": "Transportation",
         "mode": "FILTER",

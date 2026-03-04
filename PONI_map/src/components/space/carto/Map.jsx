@@ -19,7 +19,6 @@ import SelectedEvents from "./atoms/SelectedEvents";
 import Portal from "../../Portal";
 import Narratives from "./atoms/Narratives";
 import DefsMarkers from "./atoms/DefsMarkers";
-import SatelliteOverlayToggle from "./atoms/SatelliteOverlayToggle";
 import LoadingOverlay from "../../atoms/Loading";
 
 import {
@@ -704,14 +703,6 @@ class Map extends Component {
           ui={isFetchingDomain}
           language={this.props.app.language}
         />
-        {this.props.features.USE_SATELLITE_OVERLAY_TOGGLE && (
-          <SatelliteOverlayToggle
-            isUsingSatellite={this.props.ui.isUsingSatellite}
-            isUsingNative={this.props.ui.isUsingNative}
-            toggleSatellite={this.props.actions.toggleTileOverlay}
-            toggleNative={this.props.actions.toggleNativeOverlay}
-          />
-        )}
         {innerMap}
       </div>
     );
