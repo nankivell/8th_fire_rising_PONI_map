@@ -167,7 +167,7 @@ const config = {
       USE_SHAPES: false,
       USE_COVER: true,
       USE_INTRO: false,
-      USE_SATELLITE_OVERLAY_TOGGLE: true,
+      USE_SATELLITE_OVERLAY_TOGGLE: false,
       USE_SEARCH: false,
       USE_SITES: false,
       ZOOM_TO_TIMEFRAME_ON_TIMELINE_CLICK: one_day,
