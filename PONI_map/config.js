@@ -1,0 +1,175 @@
+const one_day = 1440;
+
+const config = {
+  title: "ukraine",
+  display_title: "Projects of\nNational Interest",
+  SERVER_ROOT: "https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/production/ukr",
+  EVENTS_EXT: "/data/events.json",
+  SOURCES_EXT: "/data/sources.json",
+  ASSOCIATIONS_EXT: "/data/associations.json",
+  API_DATA: "https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/production/ukr/timemap/api.json",
+  MAPBOX_TOKEN:
+    "pk.eyJ1IjoiYmVsbGluZ2NhdC1tYXBib3giLCJhIjoiY2tleW0wbWliMDA1cTJ5bzdkbTRraHgwZSJ9.GJQkjPzj8554VhR5SPsfJg",
+  NATIVE_MAPBOX_TOKEN:
+    "pk.eyJ1IjoibmFua2l2ZWxsIiwiYSI6ImNtbWF1bzM0YzBpazUycHBvNm1zNDR4eDkifQ.vK5FcQeHGv8yWb5kzBWsKg",
+  NATIVE_LAND_GEOJSON_URL:
+    "https://native-land.ca/api/polygons/geojson/territories?key=pk.eyJ1IjoibmFua2l2ZWxsIiwiYSI6ImNtbWF1bzM0YzBpazUycHBvNm1zNDR4eDkifQ.vK5FcQeHGv8yWb5kzBWsKg",
+  // MEDIA_EXT: "/api/media",
+  DATE_FMT: "M/D/YYYY",
+  TIME_FMT: "HH:mm",
+
+  store: {
+    app: {
+      debug: true,
+      map: {
+        // anchor: [56.13793123747861, -94.66994184529888],
+        anchor: [56.13793123747861, -94.66994184529888],
+        maxZoom: 18,
+        minZoom: 4,
+        startZoom: 4,
+        // maxBounds: []
+      },
+      cluster: { radius: 50, minZoom: 5, maxZoom: 12 },
+      associations: {
+        defaultCategory: "Weapon System",
+      },
+      timeline: {
+        dimensions: {
+          height: 90,
+          contentHeight: 90,
+        },
+        zoomLevels: [
+          // { label: "Zoom to 2 weeks", duration: 14 * one_day },
+          { label: "Zoom to 1 month", duration: 31 * one_day },
+          { label: "Zoom to 6 months", duration: 6 * 31 * one_day },
+          { label: "Zoom to 1 year", duration: 12 * 31 * one_day },
+          { label: "Zoom to 2 years", duration: 24 * 31 * one_day },
+        ],
+        range: {
+          /**
+           * Initial date range shown on map load.
+           * Use [start, end] (strings in ISO 8601 format) for a fixed range.
+           * Use undefined for a dynamic initial range based on the browser time.
+           */
+          initial: ["2020-01-01T00:00:00.000Z", "2026-12-31T23:59:59.999Z"],
+          /** The number of days to show when using a dynamic initial range */
+          initialDaysShown: 31*12,
+          limits: {
+            /** Required. The lower bound of the range that can be accessed on the map. (ISO 8601) */
+            lower: "2020-01-01T00:00:00.000Z",
+            /**
+             * The upper bound of the range that can be accessed on the map.
+             * Defaults to current browser time if undefined.
+             */
+            upper: undefined,
+          },
+        },
+      },
+      intro: [
+        '<div class="two-columns"><div class="two-columns_column"><figure><img style="width: 100%; display:block;" src="https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/ukraine-timemap/cover01-s.jpg" frameborder="0"><figcaption>Image: Vyacheslav Madiyevskyy/Reuters</figcaption></figure></div><div class="two-columns_column"><figure><img style="width: 100%; display:block;" src="https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/ukraine-timemap/cover02-s.jpg" frameborder="0"><figcaption>Image: Järva Teataja/Scanpix Baltics via Reuters</figcaption></figure></div></div>',
+        'This map plots out and highlights incidents that have resulted in potential civilian impact or harm since Russia began its invasion of Ukraine. The incidents detailed have been collected by Bellingcat researchers. Included in the map are instances where civilian areas and infrastructure have been damaged or destroyed, where the presence of civilian injuries are visible and/or there is the presence of immobile civilian bodies. Collection for the incidences contained in this map began on February 24, 2022. Users can explore incidents by date and location. We intend this to be a living project that will continue to be updated as long as the conflict persists. For more detailed information about the entries included in this map, please refer to our methodology and explainer article which can be read <a href="https://www.bellingcat.com/news/2022/03/17/hospitals-bombed-and-apartments-destroyed-mapping-incidents-of-civilian-harm-in-ukraine/" >here</a>.',
+        '<p><b>Editor\'s note</b>: An error in our archiving system between October 21 and November 7 led to some incidents being published on our TimeMap before they were fully verified. We have fixed this issue and are working to verify all extra incidents.</p>',
+      ],
+
+      flags: { isInfopoup: false, isCover: false },
+      cover: {
+        title: "About and Methodology",
+        exploreButton: "BACK TO THE PLATFORM",
+        description: [
+          "## Scope of Research",
+          "This database, organised on 8th Fire Rising's [research on PONIs](https://docs.google.com/spreadsheets/d/1NPizC8ChrpzMV_uZ1q3mFCIq8KFXrxuenwCYnaGPTAE/edit?gid=1954994743#gid=1954994743) and, frankly, this research is going to change all of our lives forever. ",
+          "## On Going Research",
+          "This map will be updated on a rolling basis. Please reach out to contribute.",
+          "## Descriptions",
+          "Each point on the map contains information about a PONI, including a project description, details about ownership, Indigenous concerns, and the economic and geopolitical conditions each project exists within,",
+          "## Filters",
+          "On the left hand side of the map, a user can toggle between different types of infrastructure.",
+          "## Timeline",
+          "At the bottom of the map you can navigate a timeline which displays when each project was approved.",
+        ],
+      },
+      toolbar: {
+        panels: {
+          categories: {
+            // TRUE: {
+            //   icon: "public",
+            //   label: "Verified",
+            //   description: "todo",
+            // },
+            // FALSE: {
+            //   icon: "public",
+            //   label: "Unverified",
+            //   description: "todo",
+            // }
+          },
+        },
+      },
+      spotlights: {},
+    },
+    ui: {
+      coloring: {
+        mode: "STATIC",
+        maxNumOfColors: 9,
+        defaultColor: "#dfdfdf",
+        colors: [
+          "#F57C00",
+          "#7E57C2",
+          "#FFEB3B",
+          "#D34F73",
+          "#08B2E3",
+          "#A1887F",
+          "#90A4AE",
+          "#E57373",
+          "#80CBC4",
+        ],
+      },
+      card: {
+        layout: {
+          template: "sourced",
+        },
+      },
+      carto: {
+        eventRadius: 8,
+      },
+      timeline: {
+        eventRadius: 9,
+      },
+      tiles: {
+        current: "bellingcat-mapbox/cl0qnou2y003m15s8ieuyhgsy",
+        default: "bellingcat-mapbox/cl0qnou2y003m15s8ieuyhgsy",
+        satellite: "bellingcat-mapbox/cl1win2vp003914pdhateva6p",
+        native: "nativeland.4pgB_next_nld_terr_prod_layer"
+      },
+    },
+    features: {
+      USE_CATEGORIES: false,
+      CATEGORIES_AS_FILTERS: false,
+      COLOR_BY_CATEGORY: false,
+      COLOR_BY_ASSOCIATION: true,
+      USE_ASSOCIATIONS: true,
+      USE_FULLSCREEN: true,
+      USE_DOWNLOAD: true,
+      USE_SOURCES: true,
+      USE_SPOTLIGHTS: false,
+      USE_SHAPES: false,
+      USE_COVER: true,
+      USE_INTRO: false,
+      USE_SATELLITE_OVERLAY_TOGGLE: true,
+      USE_SEARCH: false,
+      USE_SITES: false,
+      ZOOM_TO_TIMEFRAME_ON_TIMELINE_CLICK: one_day,
+      FETCH_EXTERNAL_MEDIA: false,
+      USE_MEDIA_CACHE: false,
+      GRAPH_NONLOCATED: false,
+      NARRATIVE_STEP_STYLES: false,
+      CUSTOM_EVENT_FIELDS: [
+        { kind: "text", key: "Owners", title: "Owners" },
+        { kind: "text", key: "Shareholders", title: "Shareholders" },
+        { kind: "text", key: "approval_stage", title: "Approval Stage" },
+        { kind: "text", key: "commodity", title: "Commodity" },
+      ],
+    },
+  },
+};
+
+export default config;

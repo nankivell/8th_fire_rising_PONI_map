@@ -1,0 +1,11 @@
+Latitude,Longitude,DATE,id,description,associations,sources,location,graphic,time
+54.02390353,-128.6844742,9/11/2025,SP01,LNG Canada Export Terminal,"""asc1""","""src2"", ""src3""","Haisla Nation, BC",FALSE,0:00
+43.86807616,-78.72364747,9/11/2025,SP02,Darlington New Nuclear Project,"""asc1""","""src2"", ""src3""","Michi Saagiig Anishinaabeg, Williams Treaties, Gunshot Treaties, Williams Treaties Settlement Agreement",FALSE,0:00
+45.82946919,-73.28051763,9/11/2025,SP03,Contrecoeur Terminal Container Project,"""asc2""","""src2"", ""src3""","Haudenosaunee, Mohawk Nation ",FALSE,0:00
+54.64175955,-102.8063986,9/11/2025,SP04,McIlvenna Bay Foran Copper Mine Project,"""asc3"", ""asc4""","""src2"", ""src3""","Michif Piyii (Métis), Cree",FALSE,0:00
+57.73291072,-129.7675452,9/11/2025,SP05,Red Chris Porphyry Copper-Gold Project,"""asc3""","""src2"", ""src3""","Tāłtān Konelīne (Tahltan), Dënéndeh, ",FALSE,0:00
+46.983571674,-67.367340853,11/13/2025,SP06,Sisson Mine,"""asc3""","""src2"", ""src3""",Wolastoqey (Maliseet,FALSE,0:00
+48.8383238331020,-81.3560633327230,11/13/2025,SP07,Crawford Nickel Project,"""asc3""","""src2"", ""src3""","Mattagami, Matachewan and Flying Post",FALSE,0:00
+55.0311676499456,-130.1858874059640,11/13/2025,HW08,Ksi Lisims,"""asc1""","""src2"", ""src3""","Nisga'a Treaty territory, and Gitga’at First Nation, Gitxaała Nation, Kitselas First Nation, Kitsumkalum First Nation, Lax Kw’alaams Band, Metlakatla First Nation, Haida Nation, and Gitxsan Wilp Denimget, Tsihl Gwellii Laxwiiyip",FALSE,0:00
+46.673302036,-73.910834112,11/13/2025,SP09,Noveau Monde Graphite Mine [Matawinie Mine &  Bécancour Battery Materials Plant],"""asc3""","""src2"", ""src3""",-,,
+54.0098483612716,-125.0245782802470,11/13/2025,SP10,North Coast Transmission Line (NCTL),"""asc1""","""src2"", ""src3""",-,,

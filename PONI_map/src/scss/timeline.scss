@@ -1,0 +1,407 @@
+.timeline-wrapper {
+  position: fixed;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  background: rgba($black, 0.8);
+  box-shadow: 0 -10px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  color: white;
+  transition: transform 0.3s ease;
+  z-index: $timeline;
+  border-top: 1px solid black;
+
+  &.folded {
+    transform: translateY(100%);
+
+    .timeline-header .timeline-toggle p .arrow-down {
+      transform: translate(0, 0px) rotate(-135deg);
+      -webkit-transform: translate(0, 5px) rotate(-135deg);
+    }
+  }
+
+  &.narrative-mode {
+    left: 0;
+    transition: left 0.2s ease;
+  }
+
+  .timeline-header {
+    height: 0px;
+    width: 100%;
+    font-size: $large;
+    font-weight: 700;
+
+    .timeline-toggle {
+      position: absolute;
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+
+      p {
+        width: 60px;
+        height: 25px;
+        margin: 0 auto;
+        background: rgba($black, 0.8);
+        margin-top: -25px;
+        border-radius: 6px 6px 0 0;
+        cursor: pointer;
+
+        &:hover {
+          .arrow-down {
+            transition: 0.2s ease;
+            border-right: 2px solid $offwhite;
+            border-bottom: 2px solid $offwhite;
+          }
+        }
+      }
+
+      .arrow-down {
+        display: inline-block;
+        padding: 3px;
+        transition: 0.2s ease;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        border-right: 2px solid $midwhite;
+        border-bottom: 2px solid $midwhite;
+      }
+    }
+    @media screen and (max-width: 1040px) {
+      .timeline-toggle p {
+        margin: -25px 10px 0 auto;
+      }
+    }
+
+    .timeline-info {
+      width: calc(#{$card-width} - 20px);
+      position: absolute;
+      bottom: 100%;
+      margin-bottom: 6px;
+      margin-left: 10px;
+      background: rgba($black, 0.8);
+      padding: 9px 15px 11px;
+      box-sizing: border-box;
+      min-height: 20px;
+      border-radius: 6px;
+      &.hidden {
+        display: none;
+      }
+      p {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 1.15rem;
+
+        span {
+          color: $offwhite;
+        }
+        &:first-child {
+          text-transform: none;
+          font-size: 1rem;
+          color: $midwhite;
+          font-weight: 400;
+        }
+        @media screen and (max-width: 600px) {
+          font-size: 1rem;
+          &:nth-child(1) {
+            font-size: 0.875rem;
+          }
+        }
+      }
+
+      small.reset-button {
+        float:right;
+        cursor: pointer;
+        font-size: 0.75rem;
+      }
+
+      // mobile styles
+      @media screen and (max-width: 600px) {
+        bottom: 115%;
+        bottom: calc(100% + 25px);
+        width: 96vw;
+        margin: 0 2vw 10px;
+      }
+    }
+  }
+
+  .timeline-content {
+    .timeline-labels {
+      padding-top: 2px;
+      padding-left: 20px;
+      margin-right: 0px;
+      border-right: 1px solid $midgrey;
+      width: 175px;
+      height: 180px;
+      float: left;
+      text-align: left;
+      box-sizing: border-box;
+
+      .timeline-label-title {
+        font-size: $normal;
+        font-weight: 700;
+        fill: $offwhite;
+        letter-spacing: 0.1em;
+        height: 20px;
+        text-transform: uppercase;
+      }
+
+      .timeline-label {
+        font-size: $small;
+        line-height: 16px;
+        color: $offwhite;
+        text-align: right;
+        padding-right: 10px;
+        letter-spacing: 0.05em;
+      }
+    }
+
+    .timeLabel {
+      font-size: $normal;
+      fill: $midwhite;
+      letter-spacing: 0.05em;
+    }
+
+    .timeline {
+      width: 100%;
+      box-sizing: border-box;
+
+      svg {
+        display: block;
+      }
+
+      .domain {
+        opacity: 0;
+      }
+
+      .tick {
+        cursor: -webkit-grab;
+        cursor: -moz-grab;
+        line {
+          stroke: rgb(199, 199, 199);
+          shape-rendering: crispEdges;
+          opacity: 0.6;
+        }
+
+        text {
+          fill: $midwhite;
+          text-transform: capitalize;
+
+          @media screen and (max-width: 960px) {
+            writing-mode:vertical-lr;
+            /*
+             * Applies slightly different in Gecko and WebKit/Blink.
+             * Optimized for WebKit as its more common on mobile viewports.
+             */
+            transform: translateX(6px) translateY(6px);
+          }
+        }
+      }
+
+      .xAxis {
+        line {
+          stroke-dasharray: 1px 4px;
+        }
+      }
+
+      .yAxis {
+        .tick line {
+          stroke: white; // $midwhite;
+          cursor: -webkit-grab;
+          cursor: -moz-grab;
+        }
+
+        .tick text {
+          font-size: 10px;
+          text-anchor: end;
+        }
+      }
+
+      .drag-grabber {
+        cursor: -webkit-grab;
+        cursor: -moz-grab;
+        fill: $offwhite;
+        opacity: 0.05;
+      }
+
+      .axisBoundaries {
+        stroke: $offwhite;
+        stroke-width: 1;
+        stroke-dasharray: 1px 2px;
+      }
+
+      .event {
+        cursor: pointer;
+        opacity: 0.7;
+
+        &.mouseover {
+          opacity: 1;
+        }
+      }
+
+      .timeline-marker {
+        fill: none;
+      }
+
+      .coevent {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      .time-controls path,
+      .time-controls rect {
+        cursor: pointer;
+        transition: 0.2s ease;
+        fill: $midwhite;
+
+        &:hover path,
+        &:hover path {
+          transition: 0.2s ease;
+          fill: $offwhite;
+        }
+      }
+
+      .time-controls-inline path {
+        cursor: pointer;
+        fill: $offwhite;
+      }
+
+      .time-controls circle,
+      .time-controls-inline circle {
+        fill: $midwhite;
+        fill-opacity: 0.01;
+        cursor: pointer;
+        stroke: $midwhite;
+        stroke-width: 1;
+      }
+
+      .time-controls-inline circle {
+        stroke: none;
+      }
+
+      .time-controls g,
+      .time-controls-inline {
+        &:hover {
+          cursor: pointer;
+          circle {
+            transition: 0.2s ease;
+            fill-opacity: 0.2;
+            fill: $offwhite;
+          }
+          path,
+          rect {
+            transition: 0.2s ease;
+            fill: $offwhite;
+          }
+        }
+      }
+    }
+  }
+}
+
+.zoom-controls {
+  display: flex;
+  padding: 6px 20px;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 9px;
+  @media screen and (max-width: 600px) {
+    padding: 6px 3px;
+  }
+
+  .zoom-level-button {
+    padding: 6px 9px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    text-anchor: middle;
+    letter-spacing: 0.05em;
+    transition: 0.2s ease;
+    color: $midwhite;
+    border-radius: 3px;
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    text-align: center;
+
+    @media screen and (max-width: 600px) {
+      font-size: 0.65rem;
+    }
+
+    &:hover {
+      color: $offwhite;
+      background-color: rgba($active, 0.3);
+    }
+    &.active {
+      color: $offwhite;
+      background-color: $active;
+    }
+  }
+}
+
+/*
+* Slider
+* https://bl.ocks.org/mbostock/6452972
+*/
+.track,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: $offwhite;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 15px;
+  stroke: transparent;
+  cursor: pointer;
+}
+
+/*
+* Handles
+*/
+.timeline-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.timeline-handle {
+  width: 30px;
+  height: 30px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba($active, 0.4);
+    .timeline-handle__triangle {
+      border-color: transparent $offwhite transparent transparent;
+    }
+  }
+  &__triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 10px 7px 0;
+    border-color: transparent $midwhite transparent transparent;
+  }
+  &.right {
+    margin-right: 5px;
+    &:hover {
+      background-color: rgba($active, 0.4);
+      .timeline-handle__triangle {
+        border-color: transparent transparent transparent $offwhite;
+      }
+    }
+    .timeline-handle__triangle {
+      border-width: 7px 0 7px 10px;
+      border-color: transparent transparent transparent $midwhite;
+    }
+  }
+}

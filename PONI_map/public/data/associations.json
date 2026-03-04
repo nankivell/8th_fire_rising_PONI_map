@@ -1,0 +1,182 @@
+[
+    {
+        "id": "asc1",
+        "title": "Energy",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Project Type",
+            "Energy"
+        ]
+    },
+    {
+        "id": "asc2",
+        "title": "Port",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Project Type",
+            "Port"
+        ]
+    },
+    {
+        "id": "asc3",
+        "title": "Mining",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Project Type",
+            "Mining"
+        ]
+    },
+    {
+        "id": "asc4",  
+        "title": "Critical Minerals",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Project Type",
+            "Critical Minerals"
+        ]
+    },
+    {
+        "id": "asc5",
+         "title": "Transportation",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Project Type",
+            "Transportation"
+        ]
+    },
+    {
+        "id": "own1",
+         "title": "Private",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Ownership Type",
+            "Private"
+        ]
+    },
+    {
+        "id": "own2",
+         "title": "Public",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Ownership Type",
+            "Public"
+        ]
+    },
+    {
+        "id": "own3",
+         "title": "Indigenous",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Ownership Type",
+            "Indigenous Owned"
+        ]
+    },
+    {
+        "id": "own4",
+         "title": "Public-Indigenous",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Ownership Type",
+            "Public-Indigenous Partnership"
+        ]
+    },
+    {
+        "id": "own5",
+         "title": "Indigenous-Private",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Ownership Type",
+            "Indigenous-Private Partnership"
+        ]
+    },
+    {
+        "id": "own6",
+         "title": "P3",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Ownership Type",
+            "P3"
+        ]
+    },
+    {
+        "id": "lab1",
+         "title": "Union-Private",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Labour Type",
+            "Unionized private sector workers"
+        ]
+    },
+    {
+        "id": "lab2",
+         "title": "Union-Public",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Labour Type",
+            "Unionized public sector workers"
+        ]
+    },
+    {
+        "id": "lab3",
+         "title": "Non-Union-Con",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Labour Type",
+            "Non-unionized contracted workers"
+        ]
+    },
+    {
+        "id": "lab4",
+         "title": "Non-Union-private",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Labour Type",
+            "Non-unionized private sector employees"
+        ]
+    },
+    {
+        "id": "lab5",
+         "title": "combination",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Labour Type",
+            "Combination of unionized and non-unionized workers"
+        ]
+    },
+    {
+        "id": "refyes",
+        "title": "Referred to the MPO",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Approval Stage",
+            "Referred to the MPO"
+        ]
+    },
+    {
+        "id": "refno",
+        "title": "Not yet referred to the MPO",
+        "mode": "FILTER",
+        "desc": "",
+        "filter_paths": [
+            "Approval Stage",
+            "Not yet referred to the MPO"
+        ]
+    }
+]

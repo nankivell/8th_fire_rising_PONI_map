@@ -1,0 +1,121 @@
+// @import 'burger';
+@import "card";
+
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: #{$card-right};
+  right: $card-right;
+  max-height: calc(100% - #{$timeline-height} - 35px);
+  height: auto;
+  width: $card-width;
+  overflow-y: scroll;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  z-index: $header;
+  color: white;
+  overflow: hidden;
+  max-width: 100vw;
+  background: $offwhite;
+  border-radius: 6px;
+
+  @media screen and (max-width: 600px) {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100vh;
+  }
+
+  &.narrative-mode {
+    right: $card-right;
+    left: auto;
+    top: $narrative-info-height + 32px;
+    height: calc(100% - #{$narrative-info-height} - #{$timeline-height} - 32px);
+  }
+
+  &.full-height {
+    max-height: calc(100% - 20px);
+  }
+
+  .card-stack-header {
+    position: initial;
+    top: $card-right;
+    width: 100%;
+    max-width: $card-width;
+    box-sizing: border-box;
+    padding: 0 5px;
+    background: $black;
+    border-radius: 2px;
+    border: 1px solid $black;
+    font-size: $large;
+    transition: 0.2s ease;
+    text-align: left;
+    z-index: 20;
+
+    &:hover {
+      transition: 0.2s ease;
+    }
+
+    .header-copy {
+      margin: 0;
+      padding: 0 10px;
+      line-height: 20px;
+      text-align: right;
+
+      &.top {
+        padding-top: 10px;
+      }
+
+      &:last-child {
+        padding-bottom: 10px;
+      }
+    }
+
+    .side-menu-burg {
+      position: absolute;
+      left: 8px;
+      top: 9px;
+
+      span {
+        width: 20px;
+      }
+    }
+  }
+
+  .card-stack-content {
+    flex: 1;
+    max-width: $card-width;
+    overflow: auto;
+    padding-right: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+    ul {
+      padding: 0;
+      margin-top: 1px;
+      margin-bottom: 0;
+    }
+
+    .card-list {
+      height: auto;
+    }
+  }
+
+  &.folded {
+    .card-stack-header {
+      border: 0;
+      height: 0;
+      overflow: hidden;
+    }
+    .card-stack-content {
+      height: 0;
+      overflow: hidden;
+    }
+  }
+}
+
+li {
+  list-style-type: none;
+}

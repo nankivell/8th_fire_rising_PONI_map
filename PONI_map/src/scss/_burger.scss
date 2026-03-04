@@ -1,0 +1,49 @@
+// Burger transition
+.side-menu-burg {
+  overflow: hidden;
+  margin: 0;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+  background: none;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+  box-sizing: content-box;
+
+  &:before,
+  &:after {
+    content: " ";
+    position: absolute;
+    right: 50%;
+    right: calc(50% - 1px);
+    top: 3px;
+    width: 2px;
+    height: 18px;
+    background-color: $midwhite;
+  }
+  &:before {
+    transform: rotate(45deg);
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
+  &:hover:after,
+  &:hover:before {
+    background-color: #fff;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  &.is-active {
+  }
+}
+
+.side-menu-burg:focus {
+  outline: none;
+}
