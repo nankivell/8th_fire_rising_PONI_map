@@ -83,9 +83,8 @@
     "latitude": "54.64175955",
     "longitude": "-102.8063986",
     "graphic": "FALSE",
-    "associations": [
+      "associations": [
       "asc3",
-      "asc4",
       "own1",
       "lab4",
       "refyes"
