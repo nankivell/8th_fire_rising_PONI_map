@@ -1,14 +1,13 @@
 @import "variables";
 
 .satellite-overlay-toggle {
-  display: none;
   position: fixed;
   top: 120px;
   right: 0.5em;
   z-index: $map-overlay;
   border-radius: 6px;
   overflow: hidden;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 9px;
 
