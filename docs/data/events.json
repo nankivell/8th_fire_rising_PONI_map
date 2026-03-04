@@ -1,0 +1,767 @@
+[
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP01",
+    "title": "LNG Canada Export Terminal",
+    "date": "9/11/2025",
+    "location": "Haisla Nation, BC",
+    "latitude": "54.02390353",
+    "longitude": "-128.6844742",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own1",
+      "lab1",
+      "refyes"
+    ],
+    "Owners": "Shell Canada Energy (Canada), PETRONAS (North Montney LNG Limited Partnership) (Canada), PetroChina Company Limited through PetroChina Canada Ltd. (China), Mitsubishi Corporation through Diamond LNG Canada (Japan)",
+    "Shareholders": "-",
+    "approval_stage": "Referred to MPO",
+    "commodity": "LNG Export: Primairly North-East Asian markets, China, Japan, South Korea",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP02",
+    "title": "Darlington New Nuclear Project",
+    "date": "9/11/2025",
+    "location": "Michi Saagiig Anishinaabeg, Williams Treaties, Gunshot Treaties, Williams Treaties Settlement Agreement",
+    "latitude": "43.86807616",
+    "longitude": "-78.72364747",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own2",
+      "lab2",
+      "refyes"
+    ],
+    "Owners": "Ontario Power Generation (Canada), Canada Growth Fund (Canada), Building Ontario Fund (Canada)",
+    "Shareholders": "-",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Nuclear Energy: Ontario Grid",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP03",
+    "title": "Contrecoeur Terminal Container Project",
+    "date": "9/11/2025",
+    "location": "Haudenosaunee, Mohawk Nation",
+    "latitude": "45.82946919",
+    "longitude": "-73.28051763",
+    "graphic": "FALSE",
+    "associations": [
+      "asc2",
+      "own6",
+      "lab5",
+      "refyes"
+    ],
+    "Owners": "Montreal Port Authority (Canada)",
+    "Shareholders": "-",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Container Shipping: Europe and Asia Markets, primairly raw goods, new facility meant to accomodate mineral/gas resources",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP04",
+    "title": "McIlvenna Bay Foran Copper Mine Project",
+    "date": "9/11/2025",
+    "location": "Michif Piyii (M\u00e9tis), Cree",
+    "latitude": "54.64175955",
+    "longitude": "-102.8063986",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "asc4",
+      "own1",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Foran Mining (Canada)",
+    "Shareholders": "Agnico Eagles Mine Lmtd (United States), Fairfax Financial Holdings Limited (Canada), The Public Sector Pension Investment Board (Canada)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals: Copper, Zinc, Gold, Silver;",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP05",
+    "title": "Red Chris Porphyry Copper-Gold Project",
+    "date": "9/11/2025",
+    "location": "T\u0101\u0142t\u0101n Koneli\u0304ne (Tahltan), D\u00ebn\u00e9ndeh,",
+    "latitude": "57.73291072",
+    "longitude": "-129.7675452",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Newmont (United States), Imperial Metals Corporation (Canada)",
+    "Shareholders": "-",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals: Copper; Asia-Pacific trading partners",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP06",
+    "title": "Sisson Mine",
+    "date": "11/13/2025",
+    "location": "Wolastoqey (Maliseet",
+    "latitude": "46.983571674",
+    "longitude": "-67.367340853",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Northcliff Resources Ltd. (Canada), Todd Minerals Ltd. (New Zealand)",
+    "Shareholders": "The Todd Corp. Ltd. (New Zealand)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals: Tungsten, Molybdenum; North American, European and Asian markets",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP07",
+    "title": "Crawford Nickel Project",
+    "date": "11/13/2025",
+    "location": "Mattagami, Matachewan and Flying Post",
+    "latitude": "48.8383238331020",
+    "longitude": "-81.3560633327230",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own5",
+      "lab5",
+      "refyes"
+    ],
+    "Owners": "Canada Nickel (Canada)",
+    "Shareholders": "(INVESTOR) Agnico Eagles (Canada), (INVESTOR) Samsung SDI (South Korea), (INVESTOR) Anglo-American (Great Britan), (INVESTOR) Taykwa Tagamou Nation (Canada)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals: Nickle, lithium, graphite, cobalt, copper and rare earth elements; Export market to North America",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP08",
+    "title": "Ksi Lisims",
+    "date": "11/13/2025",
+    "location": "Nisga'a Treaty territory, and Gitga\u2019at First Nation, Gitxaa\u0142a Nation, Kitselas First Nation, Kitsumkalum First Nation, Lax Kw\u2019alaams Band, Metlakatla First Nation, Haida Nation, and Gitxsan Wilp Denimget, Tsihl Gwellii Laxwiiyip",
+    "latitude": "55.0311676499456",
+    "longitude": "-130.1858874059640",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own1",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Western LNG (United States)",
+    "Shareholders": "Western LNG (United States), TotalEnergies (France)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "LNG: Export LNG to Asia",
+    "time": "00:00"
+  },
+  {
+    "sources": [
+      "src2",
+      "src3"
+    ],
+    "id": "SP09",
+    "title": "Noveau Monde Graphite Mine [Matawinie Mine &  B\u00e9cancour Battery Materials Plant]",
+    "date": "11/13/2025",
+    "location": "-",
+    "latitude": "46.673302036",
+    "longitude": "-73.910834112",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Nouveau Monde Graphite (NMG) (Canada)",
+    "Shareholders": "Investissement Qu\u00e9bec (Canada), Canada Growth Fund (Canada), Pallinghurst Graphite Ltd. (Great Britan), General Motors Ventures (United States)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals: Extraction of anode material for lithium batteries from mine, processed in battery plant for international sale",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP11",
+    "title": "Wind West Atlantic Power [Eastern Power Partnership]",
+    "date": "06-01-2021",
+    "location": "Mi'kmaqi",
+    "latitude": "44.494605930",
+    "longitude": "-60.575183892",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own6",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Government of Nova Scotia (Canada), Government of New Brunswick (Canada), Federal Government (Canada)",
+    "Shareholders": "-",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Wind Energy",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP12",
+    "title": "Pathways Plus",
+    "date": "08-01-2021",
+    "location": "Treaties 6, 7 and 8",
+    "latitude": "54.519228828",
+    "longitude": "-110.099012984",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own1",
+      "lab5",
+      "refyes"
+    ],
+    "Owners": "Canadian Natural Resources (Canada), Cenovus Energy (Canada), ConcoPhilips Canada (Canada), Imperial Oil (Canada), MEG Energy (Canada), Suncor (Canada)",
+    "Shareholders": "CK Hutchison Holdings Limited (China), Li Family (private), Capital Research & Management Co. (United States), ConcoPhilips (United States), Public Investment Fund of the Kingdom of Saudi Arabia (Saudia Arabia)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Co2 Capture and Export",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP13",
+    "title": "Arctic Economic and Security Corridor",
+    "date": "10-01-2021",
+    "location": "Kitikmeok section (road and port): Inuit, potential overlap with Akaitcho and T\u0142\u0131\u0328ch\u01eb Nd\u00e8 territories at southern end of road (Jericho), Yellowknives Dene First Nation say the project is on their territory. NWT section: D\u00ebn\u00e9ndeh, T\u0142\u0131\u0328ch\u01eb Nd\u00e8, Michif Piyii (M\u00e9tis), Akaitcho, Denendeh (D\u00ebn\u00ebs\u0173\u0142in\u00eb\u0301 N\u00ebn\u00e9).",
+    "latitude": "67.757444597",
+    "longitude": "-111.053799596",
+    "graphic": "FALSE",
+    "associations": [
+      "asc2",
+      "own4",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Kitikmeot Corp (Canada), Yellowknives Dene First Nation (Canada), Sakku Investments (Canada)\nTicjo Governments (Canada), Province of North West Territories (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Provide access to mineral deposits; linked to Taltson hydro project",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP14",
+    "title": "Port of Churchill Plus",
+    "date": "11-01-2021",
+    "location": "Cree (5 northeastern manitoban First nations comprise the Nayhenaway Ininisewinuk Cree people jointly proposing an IPCA to protect their shared homelands), Dene (Sayisi Dene is a community made up of Dene who were displaced into the city of Churchill through racist caribou conservation policies), Metis. See map",
+    "latitude": "58.763236006",
+    "longitude": "-94.076579408",
+    "graphic": "FALSE",
+    "associations": [
+      "asc2",
+      "own3",
+      "-",
+      "refyes"
+    ],
+    "Owners": "Alto (Canada), Cadence (Private Developer Group) (Various)",
+    "Shareholders": "CDPQ Infra (Canada), AtkinsR\u00e9alis (Great Britain), SYSTRA Canada (Canada), Keolis (France), SNCF Voyageurs (France), Air Canada (Canada)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Gas and Minerals; Discussions hint at bringing LNG to European markets e.g. Germany where there is a demand (reducing reliance on Russia) (the star). Other nodes: importing inputs for fertilizer manufacturing, grain exports, cirtical mineral exports mined in Manitoba, supplies shipped to mines (e.g. Whale Cove and Rankin Inlet), the proposal comes with potential power lines powering northern mines",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP15",
+    "title": "Alto High-Speed Rail",
+    "date": "12-01-2021",
+    "location": "-",
+    "latitude": "43.645207725",
+    "longitude": "-79.380905508",
+    "graphic": "FALSE",
+    "associations": [
+      "asc5",
+      "own6",
+      "lab3",
+      "refyes"
+    ],
+    "Owners": "Various (Various)",
+    "Shareholders": "-",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Transportation",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP16",
+    "title": "Critical Minerals Strategy [Ring of Fire, Fosse NL/QC, NorthWest Critical Minerals, Critical Conservation Corridor BC]",
+    "date": "01-01-2022",
+    "location": "Treaty 9",
+    "latitude": "52.741385",
+    "longitude": "-86.29599929",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "-",
+      "refyes"
+    ],
+    "Owners": "Wyloo (Australia), Juno Corps (Canada)",
+    "Shareholders": "Northfield Capital (Canada)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP17",
+    "title": "Upgrades to the Port of Saint John Cold Storage",
+    "date": "02-01-2022",
+    "location": "Mi'kmaqi",
+    "latitude": "45.263455660",
+    "longitude": "-66.067124694",
+    "graphic": "FALSE",
+    "associations": [
+      "asc2",
+      "own6",
+      "lab4",
+      "refno"
+    ],
+    "Owners": "Yukon Development Corporation (Canada), B.C Hydro (Canada), Yukon Hydro (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Food: Import-Export Hub, Shipping across Central and Eastern Canada, Europe, South America and APAC",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP18",
+    "title": "Upgrades to Port of Belledune Tank Farm",
+    "date": "06-01-2022",
+    "location": "Mi'kmaqi",
+    "latitude": "47.9075183375045",
+    "longitude": "-65.8442027613401",
+    "graphic": "FALSE",
+    "associations": [
+      "asc2",
+      "own6",
+      "lab5",
+      "refno"
+    ],
+    "Owners": "Arctic Gateway Group (AGG) (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Liqued Petroleum Storage; Connection to Deep Water Shipping and Rail",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP19",
+    "title": "Roberts Bank Terminal 2 Project",
+    "date": "08-01-2022",
+    "location": "-",
+    "latitude": "49.0216174767945",
+    "longitude": "-123.1606269449620",
+    "graphic": "FALSE",
+    "associations": [
+      "asc2",
+      "own6",
+      "lab5",
+      "refno"
+    ],
+    "Owners": "Nunavut Nukkiksautiit Corp (Canada)",
+    "Shareholders": "Qulliq Energy Corporation (MOU) (Canada)",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Deep Water Container Shipping",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP20",
+    "title": "Anglo-Teck Strategic Minerals Initiative",
+    "date": "10-01-2022",
+    "location": "TBD [Project Dependant]",
+    "latitude": "49.2857880833987",
+    "longitude": "-123.1184483813480",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab5",
+      "refno"
+    ],
+    "Owners": "BC Hydro (Canada), K\u2019UUL Power/Lax Kw\u2019alaams, Metlakatla, Witset, Ts\u2019il Kaz Koh, Wet\u2019suwet\u2019en First Nation, Nee Tahi Buhn Band, and Wet\u2019suwet\u2019en Hereditary Chiefs (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP21",
+    "title": "Rook I Project",
+    "date": "10-01-2022",
+    "location": "Cree, Michif Piyii (Metis)",
+    "latitude": "57.6682910000000",
+    "longitude": "-109.2507040000000",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab3",
+      "refno"
+    ],
+    "Owners": "Americold (United States), DP World (operator) (U.A.E), Canadian Pacific Kansas City (rail operator) (Canada/U.S)",
+    "Shareholders": "Vanguard Fiduciary Trust Co. (United States), BlackRock Advisors LLC (United States), Fuller & Thaler Asset Management, Inc. (United States), Cramer Rosenthal McGlynn LLC (United States), TCI Fund Management Ltd. (Great Britain), Vanguard Fiduciary Trust Co. (United States)",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Critical Minerals: Uranium",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP22",
+    "title": "Minago Nickel Project",
+    "date": "12-01-2022",
+    "location": "Cree - 107 kilometres north of Grand Rapids, Manitoba",
+    "latitude": "54.1108115584289",
+    "longitude": "-99.2193680305863",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own5",
+      "lab4",
+      "refno"
+    ],
+    "Owners": "Belledune Port Authority (Canada), Greenergy (Leasees) (Great Britain)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Critical Minerals: open-pit optimized greenfield nickel projects; magnesium",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP23",
+    "title": "Ring of Fire",
+    "date": "01-01-2023",
+    "location": "Treaty 9",
+    "latitude": "52.741385",
+    "longitude": "-86.29599929",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab4",
+      "refyes"
+    ],
+    "Owners": "Vancouver Fraser Port Authority (Canada)",
+    "Shareholders": "Government of Canada (Canada)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Critical Minerals",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP24",
+    "title": "Strange Lake Torngat Metals Ltd",
+    "date": "02-01-2023",
+    "location": "Located near Lac Brisson in Nunavik",
+    "latitude": "56.3301049852418",
+    "longitude": "-64.1524608881768",
+    "graphic": "FALSE",
+    "associations": [
+      "asc3",
+      "own1",
+      "lab4",
+      "refno"
+    ],
+    "Owners": "Anglo Teck",
+    "Shareholders": "Anglo American (Great Britain), Teck Resources (Canada)",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Critical Minerals; Rare Earths - especially dysprosium and terbium, as well as light rare earths. G&M: \"Torngat plans to produce the heavy rare earths dysprosium and terbium, which are used in specialized magnets in the automotive and defence sectors.",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP25",
+    "title": "Yukon-B.C Grid Connection",
+    "date": "06-01-2023",
+    "location": "Two possible routes (see map on page 5) Likely on Tahltan, Kaska Dena, Territory. Possibly on Teslin Tlingit and Tutchone territory.",
+    "latitude": "56.9754518435696",
+    "longitude": "-130.2482899884310",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own4",
+      "lab5",
+      "refyes"
+    ],
+    "Owners": "NexGen Energy Ltd. (Canada)",
+    "Shareholders": "L1 Capital pty ltd (Australia), Mirae Asset Global ETFs Holdings Ltd. (Hong Kong/South Korea), Van Eck Associates Corporation (United States)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Electricity Transmission: Connected to projects like Casino Gold Mine and other critical mineral and hydroelectric development",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP26",
+    "title": "North Coast Transmission Line (NCTL)",
+    "date": "08-01-2023",
+    "location": "-",
+    "latitude": "54.0098483612716",
+    "longitude": "-125.0245782802470",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own4",
+      "lab5",
+      "refyes"
+    ],
+    "Owners": "Norway House Cree Nation (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Electricity Transmission; CBC: \"The North Coast Transmission Line is designed to power critical mineral projects and LNG terminals in B.C.\u2019s north.",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP27",
+    "title": "Dredging Burrard Inlet for TMX Tankers",
+    "date": "10-01-2023",
+    "location": "Tsleil Waututh, Squamish, St\u00f3:l\u014d, Hul'qumi'num Treaty Group, Musqueam",
+    "latitude": "49.3088277899247",
+    "longitude": "-123.2019142092330",
+    "graphic": "FALSE",
+    "associations": [
+      "asc5",
+      "asc1",
+      "own2",
+      "-",
+      "refno"
+    ],
+    "Owners": "Torngat Metals (Canada)",
+    "Shareholders": "Cerberus Capital Management (lead investor) (United States)",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Oil Sands Bitumen (Overseas Markets)",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP28",
+    "title": "Northwest Coast Oil Pipeline",
+    "date": "11-01-2023",
+    "location": "-",
+    "latitude": "54.3151020000000",
+    "longitude": "-130.3209530000000",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "asc2",
+      "own6",
+      "-",
+      "refno"
+    ],
+    "Owners": "Vancouver Fraser Port Authority (Canada), Trans Mountain Corporation (Pipeline Owner) (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Oil Sands Bitumen (Overseas Markets)",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP29",
+    "title": "Taltson Hydro Expansion Project",
+    "date": "12-01-2023",
+    "location": "Dene, M\u00e9tis [map here]",
+    "latitude": "60.4255486241970",
+    "longitude": "-111.4074869861680",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own2",
+      "-",
+      "refno"
+    ],
+    "Owners": "NTPC / NT Hydro (Canada)",
+    "Shareholders": "Government of North West Territories (Canada)",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Electricity Transmission; Hydro seems necessary to power development: N.W.T.'s potential for potash, uranium, lithium, nickel and more kicked in the funding needed to develop the project through the critical minerals fund.",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP30",
+    "title": "Iqaluit Nukkiksautiit Hydro Project",
+    "date": "01-01-2024",
+    "location": "Qikiqtani Inuit",
+    "latitude": "64.1909739076754",
+    "longitude": "-68.0121045745380",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own3",
+      "lab2",
+      "refyes"
+    ],
+    "Owners": "NL Hydro (Canada), Hydro-Quebec (Canada)",
+    "Shareholders": "Government of Newfoundland and Labrador (Canada), Canadian Crown Corp (Canada)",
+    "approval_stage": "Referred to MPO",
+    "commodity": "Hydro Energy Generation",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP31",
+    "title": "Gull Island Power Plant",
+    "date": "02-01-2024",
+    "location": "Innu Nation",
+    "latitude": "52.9852059516176",
+    "longitude": "-61.3553858595869",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own2",
+      "lab3",
+      "refno"
+    ],
+    "Owners": "Government of Alberta (Proponent) (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Hydro Energy Generation",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP32",
+    "title": "Wasoqonatl Transmission Line",
+    "date": "06-01-2024",
+    "location": "Mi'kma'ki (Wabanaki Confederacy)",
+    "latitude": "45.3884228037482",
+    "longitude": "-63.3081038996604",
+    "graphic": "FALSE",
+    "associations": [
+      "asc1",
+      "own2",
+      "lab5",
+      "refno"
+    ],
+    "Owners": "Wasoqonatl Transmission Incorporated (Canada)",
+    "Shareholders": "Nova Scotia Power (Canada), CIB (Canada), Wskijinu\u2019k Mtmo\u2019taqnuow Agency Ltd. (WMA) (Canada)",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Electricity Transmission; Upgrade to enhance grid connection",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP33",
+    "title": "Mackenzie Valley Highway",
+    "date": "08-01-2024",
+    "location": "Pehdz\u00e9h K\u0131\u0328 First Nation",
+    "latitude": "69.4390330057792",
+    "longitude": "-133.0127247554610",
+    "graphic": "FALSE",
+    "associations": [
+      "asc5",
+      "own2",
+      "-",
+      "refno"
+    ],
+    "Owners": "Government of North West Territories (Canada)",
+    "Shareholders": "",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Regional access road",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP34",
+    "title": "Trans-Canada Highway Proposals [Highway 11-17]",
+    "date": "10-01-2024",
+    "location": "Various: Cross Canada - Proposal dependant",
+    "latitude": "48.6976350000000",
+    "longitude": "-85.8749150000000",
+    "graphic": "FALSE",
+    "associations": [
+      "asc5",
+      "own2",
+      "-",
+      "refno"
+    ],
+    "Owners": "Various",
+    "Shareholders": "-",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Transit Network: Moving Critical Minerals, Resources, Goods, People",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP35",
+    "title": "Rehabbing New Westminster Rail Bridge",
+    "date": "11-01-2024",
+    "location": "Kwantlen, Qayqayt, Kwikwetlem, and Semiahmoo",
+    "latitude": "49.2081577831940",
+    "longitude": "-122.8934385481560",
+    "graphic": "FALSE",
+    "associations": [
+      "asc5",
+      "own2",
+      "-",
+      "refno"
+    ],
+    "Owners": "Finished Project",
+    "Shareholders": "-",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Rail bridge that brings numerous commodities by six railways to the Port of Vancouver",
+    "time": "00:00"
+  },
+  {
+    "sources": [],
+    "id": "SP36",
+    "title": "Western Collaboration on the Advancement of Economic Corridors [MOU]",
+    "date": "12-01-2024",
+    "location": "Various: Cross Western Canada",
+    "latitude": "59.9947370000000",
+    "longitude": "-110.0079370000000",
+    "graphic": "FALSE",
+    "associations": [
+      "asc5",
+      "own6",
+      "-",
+      "refno"
+    ],
+    "Owners": "TBD",
+    "Shareholders": "-",
+    "approval_stage": "Not yet referred to MPO",
+    "commodity": "Infrastructure: Energy, Minerals, Oil and Gas, Transport,",
+    "time": "00:00"
+  }
+]
