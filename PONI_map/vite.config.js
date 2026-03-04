@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/8th_fire_rising_PONI_map/",
   plugins: [react()],
   build: {
     outDir: "build"
