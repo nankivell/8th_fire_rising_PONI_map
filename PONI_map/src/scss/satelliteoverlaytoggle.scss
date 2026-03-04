@@ -42,6 +42,9 @@
     }
 
     &.native-toggle {
+      position: fixed;
+      top: 120px;
+      right: 0.5em;
       background-size: 120%;
       background-position: center;
       background-repeat: no-repeat;
@@ -61,5 +64,11 @@
 
   .satellite-overlay-toggle-button:not(.native-toggle) {
     display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .satellite-overlay-toggle-button.native-toggle {
+      top: 170px;
+    }
   }
 }
