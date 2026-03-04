@@ -157,7 +157,12 @@ class TemplateCover extends Component {
     return (
       <div className="default-cover-container">
         <div className={showing ? "cover-header" : "cover-header minimized"}>
-          <a className="cover-logo-container" href="https://8thfirerising.ca/" target="_blank" rel="noopener noreferrer">
+          <a
+            className="cover-logo-container"
+            href="https://8thfirerising.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="cover-logo" src={bcatlogo} alt="Bellingcat logo" />
           </a>
         </div>
