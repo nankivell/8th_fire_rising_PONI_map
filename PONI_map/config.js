@@ -3,10 +3,10 @@ const one_day = 1440;
 const config = {
   title: "ukraine",
   display_title: "Projects of\nNational Interest",
-  SERVER_ROOT: "https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/production/ukr",
-  EVENTS_EXT: "/data/events.json",
-  SOURCES_EXT: "/data/sources.json",
-  ASSOCIATIONS_EXT: "/data/associations.json",
+  SERVER_ROOT: "",
+  EVENTS_EXT: "/8th_fire_rising_PONI_map/data/events.json",
+  SOURCES_EXT: "/8th_fire_rising_PONI_map/data/sources.json",
+  ASSOCIATIONS_EXT: "/8th_fire_rising_PONI_map/data/associations.json",
   API_DATA: "https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/production/ukr/timemap/api.json",
   // Mapbox tokens are sensitive and should not be committed.  We expect
   // them to be provided via environment variables at build time.  Vite
