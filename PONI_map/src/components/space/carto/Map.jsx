@@ -20,6 +20,7 @@ import Portal from "../../Portal";
 import Narratives from "./atoms/Narratives";
 import DefsMarkers from "./atoms/DefsMarkers";
 import LoadingOverlay from "../../atoms/Loading";
+import SatelliteOverlayToggle from "./atoms/SatelliteOverlayToggle";
 
 import {
   mapClustersToLocations,
@@ -702,6 +703,10 @@ class Map extends Component {
           isLoading={this.props.app.loading || isFetchingDomain}
           ui={isFetchingDomain}
           language={this.props.app.language}
+        />
+        <SatelliteOverlayToggle
+          isUsingNative={this.props.ui.isUsingNative}
+          toggleNative={this.props.actions.toggleNativeOverlay}
         />
         {innerMap}
       </div>
