@@ -1,6 +1,7 @@
 @import "variables";
 
 .satellite-overlay-toggle {
+  display: none;
   position: fixed;
   top: 120px;
   right: 0.5em;
