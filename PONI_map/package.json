@@ -2,7 +2,7 @@
   "name": "timemap",
   "version": "0.1.0",
   "description": "",
-  "homepage": "https://bellingcat.github.io/ukraine-timemap",
+  "homepage": "https://nankivell.github.io/8th_fire_rising_PONI_map",
   "private": true,
   "engines": {
     "node": "18"
@@ -17,7 +17,8 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "lint:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "predeploy": "vite build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "ship": "npm run build && cd .. && rm -rf docs && cp -r PONI_map/build docs && git add docs PONI_map && git commit -m \"Update site\" && git push origin main"
   },
   "dependencies": {
     "@json2csv/plainjs": "^6.1.2",
