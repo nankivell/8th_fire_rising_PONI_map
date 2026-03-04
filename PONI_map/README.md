@@ -26,6 +26,8 @@ Read Bellingcat's article about this project in
 * `npm install` to setup
 * adjust any local configs in [config.js](config.js)
 * `CONFIG=config.js npm run dev` or `npm run dev` if the file is named config.js
+* copy `.env.example` to `.env` and fill in `VITE_MAPBOX_TOKEN`/`VITE_NATIVE_MAPBOX_TOKEN` with
+	your public Mapbox access tokens (the actual `.env` file is gitignored)
 * For more info visit the [original repo](https://github.com/forensic-architecture/timemap)
 
 
@@ -47,6 +49,8 @@ Please read our [Contribution Guide](./CONTRIBUTING.md) and check our [Issues Pa
 * `XXXX_EXT` - points to the respective JSONs of the data, for events, sources, and associations
 * `API_DATA` - S3 file address that can be downloaded or integrated into external apps/visualizations
 * `MAPBOX_TOKEN` - used to load the custom styles
+	NOTE: starting in 2026 this value is populated from the environment
+	(`import.meta.env.VITE_MAPBOX_TOKEN`) instead of being checked in.
 * `DATE_FMT` and `TIME_FMT` - how to consume the events' date/time from the API
 * `store.app.map` - configures the initial map view and the UX limits
 * `store.app.cluster` - configures how clusters/bubbles are grouped into larger clusters, larger `radius` means bigger cluster bubbles
@@ -59,5 +63,6 @@ Easiest way to deploy the static files is through
 * `nvm use 16`
 * `npm run build` (rather: `CI=false npm run build`)
 * copy the files to your server, for example to `/var/www/html`
+	*(the token used for the build comes from `.env` or the environment)*
 
 </details>

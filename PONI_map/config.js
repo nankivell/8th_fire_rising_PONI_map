@@ -8,12 +8,24 @@ const config = {
   SOURCES_EXT: "/data/sources.json",
   ASSOCIATIONS_EXT: "/data/associations.json",
   API_DATA: "https://bellingcat-embeds.ams3.cdn.digitaloceanspaces.com/production/ukr/timemap/api.json",
-  MAPBOX_TOKEN:
-    "pk.eyJ1IjoiYmVsbGluZ2NhdC1tYXBib3giLCJhIjoiY2tleW0wbWliMDA1cTJ5bzdkbTRraHgwZSJ9.GJQkjPzj8554VhR5SPsfJg",
-  NATIVE_MAPBOX_TOKEN:
-    "pk.eyJ1IjoibmFua2l2ZWxsIiwiYSI6ImNtbWF1bzM0YzBpazUycHBvNm1zNDR4eDkifQ.vK5FcQeHGv8yWb5kzBWsKg",
-  NATIVE_LAND_GEOJSON_URL:
-    "https://native-land.ca/api/polygons/geojson/territories?key=pk.eyJ1IjoibmFua2l2ZWxsIiwiYSI6ImNtbWF1bzM0YzBpazUycHBvNm1zNDR4eDkifQ.vK5FcQeHGv8yWb5kzBWsKg",
+  // Mapbox tokens are sensitive and should not be committed.  We expect
+  // them to be provided via environment variables at build time.  Vite
+  // exposes any variable prefixed with `VITE_` through
+  // `import.meta.env` in the client bundle.
+  //
+  // During local development you can create a `.env` file (see
+  // `.env.example`) while the CI/Pages workflow can set the variables in
+  // the GitHub Actions environment.
+  MAPBOX_TOKEN: import.meta.env.VITE_MAPBOX_TOKEN || "",
+  NATIVE_MAPBOX_TOKEN: import.meta.env.VITE_NATIVE_MAPBOX_TOKEN || "",
+  // The native-land endpoint also requires a key; default to whichever
+  // token is available so we don't hardcode anything in the repository.
+  NATIVE_LAND_GEOJSON_URL: (() => {
+    const t = import.meta.env.VITE_NATIVE_MAPBOX_TOKEN || import.meta.env.VITE_MAPBOX_TOKEN || "";
+    return t
+      ? `https://native-land.ca/api/polygons/geojson/territories?key=${t}`
+      : "";
+  })(),
   // MEDIA_EXT: "/api/media",
   DATE_FMT: "M/D/YYYY",
   TIME_FMT: "HH:mm",

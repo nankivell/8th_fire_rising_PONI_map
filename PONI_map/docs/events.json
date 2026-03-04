@@ -1,0 +1,89 @@
+[
+    {
+        "sources": [
+            "src2", "src3"
+        ],
+        "id": "IOHGWA",
+        "description": "LNG Canada Export Terminal",
+        "date": "01/01/2025",
+        "location": "Haisla Nation, BC",
+        "latitude": "54.02390353",
+        "longitude": "-128.6844742",
+        "graphic": "FALSE",
+        "associations": [
+            "asc1"
+        ],
+        "time": "00:00"
+    },
+    {
+        "sources": [
+            "src2",
+            "src7",
+            "src6"
+        ],
+        "id": "ZNDX3A",
+        "description": "Darlington New Nuclear Project",
+        "date": "02/28/2025",
+        "location": "Michi Saagiig Anishinaabeg, Williams Treaties, Gunshot Treaties, Williams Treaties Settlement Agreement",
+        "latitude": "43.86807616",
+        "longitude": "-78.72364746669",
+        "graphic": "FALSE",
+        "associations": [
+            "asc1"
+        ],
+        "time": "00:00"
+    },
+    {
+        "sources": [
+            "src8"
+        ],
+        "id": "KPJG21",
+        "description": "Contrecoeur Terminal Container Project",
+        "date": "12/19/2023",
+        "location": "Haudenosaunee, Mohawk Nation",
+        "latitude": "45.82946919",
+        "longitude": "-73.28051763",
+        "graphic": "FALSE",
+        "associations": [
+            "asc2"
+        ],
+        "time": "00:00"
+    },
+    {
+        "sources": [
+            "src9",
+            "src10",
+            "src11"
+        ],
+        "id": "6AW7TC",
+        "description": "McIlvenna Bay Foran Copper Mine Project",
+        "date": "03/06/2024",
+        "location": "Michif Piyii (Métis), Cree",
+        "latitude": "54.64175955",
+        "longitude": "-102.806398591061",
+        "graphic": "FALSE",
+        "associations": [
+            "asc3",
+            "asc4"
+        ],
+        "time": "00:00"
+    },
+    {
+          "sources": [
+            "src9",
+            "src10",
+            "src11"
+        ],
+        "id": "6AW7TC",
+        "description": "Red Chris Porphyry Copper-Gold Project",
+        "date": "03/06/2024",
+        "location": "Tāłtān Konelīne (Tahltan), Dënéndeh",
+        "latitude": "57.73291072",
+        "longitude": "-129.7675452",
+        "graphic": "FALSE",
+        "associations": [
+            "asc3"
+        ],
+        "time": "00:00"
+    }
+]

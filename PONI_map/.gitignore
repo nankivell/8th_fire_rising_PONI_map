@@ -19,3 +19,7 @@ src/assets/fonts
 \.DS_Store
 
 tags
+
+# environment variable files for Vite; tokens should stay local
+.env
+.env.*
