@@ -3,8 +3,8 @@
 .satellite-overlay-toggle {
   position: fixed;
   top: 120px;
-  left: calc(var(--toolbar-width) + 10px);
-  right: auto;
+  left: auto;
+  right: 0.5em;
   z-index: $overheader;
   border-radius: 6px;
   overflow: hidden;
@@ -14,7 +14,7 @@
 
   @media screen and (max-width: 600px) {
     top: 170px;
-    left: 10px;
+    right: 0.5em;
   }
 
   .satellite-overlay-toggle-button {
