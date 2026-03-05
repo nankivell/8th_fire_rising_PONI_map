@@ -36,14 +36,14 @@ export const generateCardLayout = {
     if (isValidDate(dateValue)) {
       rows.push([
         {
-          kind: "date",
-          title: "Date of Designation",
-          value: dateValue,
-        },
-        {
           kind: "text",
           title: "Impacted First Nation(s)",
           value: event.location || `—`,
+        },
+        {
+          kind: "date",
+          title: "Date of Designation",
+          value: dateValue,
         },
       ]);
     } else {
@@ -91,14 +91,14 @@ export const generateCardLayout = {
     if (isValidDate(dateValue)) {
       rows.push([
         {
-          kind: "date",
-          title: "Date of Designation",
-          value: dateValue,
-        },
-        {
           kind: "text",
           title: "Impacted First Nation(s)",
           value: event.location || `—`,
+        },
+        {
+          kind: "date",
+          title: "Date of Designation",
+          value: dateValue,
         },
       ]);
     } else {
