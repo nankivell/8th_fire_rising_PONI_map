@@ -231,7 +231,7 @@ export const Card = ({
       case "text":
         return !isEmptyString(field.value) && <CardText {...field} />;
       case "date":
-        return renderTime(field);
+        return isEmptyString(field.value) ? null : renderTime(field);
       case "links":
         return (
           <div className="card-cell">
