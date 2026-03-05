@@ -7,7 +7,7 @@ import {
   isLongitude,
   createFilterPathString,
 } from "../common/utilities";
-import { isTimeRangedIn } from "./helpers";
+import { hasValidDatetime, isTimeRangedIn } from "./helpers";
 import { ASSOCIATION_MODES, SHAPE } from "../common/constants";
 
 // Input selectors
@@ -142,7 +142,8 @@ export const selectEvents = createSelector(
             .map((association) => activeCategories.includes(association.title))
             .some((s) => s)) ||
         activeCategories.length === 0;
-      let isActiveTime = isTimeRangedIn(event, timeRange);
+      const hasDatetime = hasValidDatetime(event);
+      let isActiveTime = hasDatetime ? isTimeRangedIn(event, timeRange) : true;
       isActiveTime = features.GRAPH_NONLOCATED
         ? (!event.latitude && !event.longitude) || isActiveTime
         : isActiveTime;
@@ -162,13 +163,17 @@ export const selectEvents = createSelector(
   }
 );
 
+export const selectDatedEvents = createSelector([selectEvents], (events) => {
+  return events.filter(hasValidDatetime);
+});
+
 /**
  * Of all available events, select only those that fall within the currently selected time range.
  * Since `events` is a sparse array, we need to reduce the array in order to count.
  */
 export const selectEventCountInTimeRange = createSelector(
-  [selectEvents],
-  (events, timeRange) => events.reduce((acc) => acc + 1, 0)
+  [selectDatedEvents],
+  (events) => events.reduce((acc) => acc + 1, 0)
 );
 
 /**
@@ -206,7 +211,10 @@ export const selectNarratives = createSelector(
     Object.keys(narratives).forEach((key) => {
       const steps = narratives[key].steps;
 
-      steps.sort((a, b) => a.datetime - b.datetime);
+      const datedSteps = steps.filter(hasValidDatetime);
+
+      datedSteps.sort((a, b) => a.datetime - b.datetime);
+      narratives[key].steps = datedSteps;
 
       const existingAssociatedNarrative = narrativesMeta.find(
         (n) => n.id === key
@@ -216,6 +224,7 @@ export const selectNarratives = createSelector(
         narratives[key] = {
           ...existingAssociatedNarrative,
           ...narratives[key],
+          steps: datedSteps,
         };
       }
     });
@@ -286,7 +295,7 @@ export const selectLocations = createSelector([selectEvents], (events) => {
 });
 
 export const selectEventsWithProjects = createSelector(
-  [selectEvents, getFeatures, getEventRadius],
+  [selectDatedEvents, getFeatures, getEventRadius],
   (events, features, eventRadius) => {
     if (!features.GRAPH_NONLOCATED) {
       return [events, []];

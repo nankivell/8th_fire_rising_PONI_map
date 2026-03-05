@@ -24,6 +24,11 @@ import NarrativeControls from "./controls/NarrativeControls";
 import colors from "../common/global";
 import { binarySearch, insetSourceFrom } from "../common/utilities";
 
+const hasValidDatetime = (event) =>
+  event &&
+  event.datetime instanceof Date &&
+  !Number.isNaN(event.datetime.valueOf());
+
 class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -62,8 +67,8 @@ class Dashboard extends Component {
   }
 
   findEventIdx(theEvent) {
-    const { events } = this.props.domain;
-    return binarySearch(events, theEvent, (theev, otherev) => {
+    const { timelineEvents } = this.props;
+    return binarySearch(timelineEvents, theEvent, (theev, otherev) => {
       return theev.datetime - otherev.datetime;
     });
   }
@@ -79,10 +84,10 @@ class Dashboard extends Component {
     if (axis === TIMELINE_AXIS) {
       matchedEvents.push(selected);
       // find in events
-      const { events } = this.props.domain;
+      const { timelineEvents: events } = this.props;
       const idx = this.findEventIdx(selected);
       // binary search can return event with different id
-      if (events[idx].id !== selected.id) {
+      if (events[idx] && events[idx].id !== selected.id) {
         matchedEvents.push(events[idx]);
       }
 
@@ -152,6 +157,7 @@ class Dashboard extends Component {
     activeFilters = activeFilters.map((f) => ({ name: f }));
 
     const evs = domain.events.filter((ev) => {
+      if (!hasValidDatetime(ev)) return false;
       let hasOne = false;
       // add event if it has at least one matching filter
       for (let i = 0; i < activeFilters.length; i++) {
@@ -211,7 +217,7 @@ class Dashboard extends Component {
 
   onKeyDown(e) {
     const { narrative, selected } = this.props.app;
-    const { events } = this.props.domain;
+    const { timelineEvents: events } = this.props;
 
     const prev = (idx) => {
       if (narrative === null) {
@@ -238,7 +244,7 @@ class Dashboard extends Component {
           break;
         case 39: // right arrow
         case 40: // down arrow
-          if (idx < 0 || idx >= this.props.domain.length - 1) return;
+          if (idx < 0 || idx >= events.length - 1) return;
           next(idx);
           break;
         default:
@@ -407,6 +413,7 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   (state) => ({
     ...state,
+    timelineEvents: selectors.selectDatedEvents(state),
     timeline: {
       dimensions: selectors.selectDimensions(state),
     },

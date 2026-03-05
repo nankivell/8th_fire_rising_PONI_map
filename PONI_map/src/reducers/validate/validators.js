@@ -85,10 +85,17 @@ export function validateDomain(domain, features) {
 
   function validateArray(items, domainKey, schema) {
     items.forEach((item) => {
+      const rawDate = (item.date || "").trim();
+      const rawTime = (item.time || "").trim();
+      const isNoDate =
+        rawDate === "" ||
+        rawDate === "-" ||
+        rawDate === "—" ||
+        rawDate === "–";
       if (
         domainKey === "events" &&
-        item.date === "" &&
-        item.time === "" &&
+        isNoDate &&
+        rawTime === "" &&
         item.latitude === "" &&
         item.longitude === ""
       )
@@ -195,6 +202,8 @@ export function validateDomain(domain, features) {
     const isNoDate =
       rawDate === "" || rawDate === "-" || rawDate === "—" || rawDate === "–";
     if (isNoDate) {
+      event.date = "";
+      event.time = "";
       event.datetime = null;
     } else {
       event.datetime = calcDatetime(rawDate, rawTime);
@@ -213,7 +222,12 @@ export function validateDomain(domain, features) {
     return true;
   });
 
-  sanitizedDomain.events.sort((a, b) => a.datetime - b.datetime);
+  sanitizedDomain.events.sort((a, b) => {
+    if (!a.datetime && !b.datetime) return 0;
+    if (!a.datetime) return 1;
+    if (!b.datetime) return -1;
+    return a.datetime - b.datetime;
+  });
 
   // Message the number of failed items in domain
   Object.keys(discardedDomain).forEach((disc) => {

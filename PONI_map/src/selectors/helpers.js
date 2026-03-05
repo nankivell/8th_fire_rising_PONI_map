@@ -6,7 +6,13 @@
  * Given an event and a time range,
  * returns true/false if the event falls within timeRange
  */
+export function hasValidDatetime(event) {
+  if (!event || !event.datetime) return false;
+  return event.datetime instanceof Date && !Number.isNaN(event.datetime.valueOf());
+}
+
 export function isTimeRangedIn(event, timeRange) {
+  if (!hasValidDatetime(event)) return false;
   const eventTime = event.datetime;
   return timeRange[0] < eventTime && eventTime < timeRange[1];
 }
