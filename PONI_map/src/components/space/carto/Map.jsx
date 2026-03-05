@@ -35,7 +35,6 @@ import {
 // Note: Base map is OpenStreetMaps by default; can choose another base map
 const supportedMapboxMap = ["streets", "satellite"];
 const defaultToken = "your_token";
-const osmTileUrl = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
 class Map extends Component {
   constructor() {
@@ -53,8 +52,6 @@ class Map extends Component {
     this.nativeFetchInFlight = null;
     this.activeNativeFeature = null;
     this.nativeMapClickBound = false;
-    this.usingFallbackTiles = false;
-    this.handleTileError = this.handleTileError.bind(this);
     this.state = {
       mapTransformX: 0,
       mapTransformY: 0,
@@ -121,29 +118,9 @@ class Map extends Component {
     }
   }
 
-  handleTileError() {
-    if (this.usingFallbackTiles) return;
-    this.usingFallbackTiles = true;
-    if (this.tileLayer) {
-      this.tileLayer.setUrl(osmTileUrl);
-    }
-  }
-
   getTileUrl(tile) {
-    if (this.usingFallbackTiles) return osmTileUrl;
-    if (
-      supportedMapboxMap.indexOf(tile) !== -1 &&
-      config.MAPBOX_TOKEN &&
-      config.MAPBOX_TOKEN !== defaultToken
-    ) {
-      return `https://api.mapbox.com/v4/mapbox.${tile}/{z}/{x}/{y}@2x.png?access_token=${config.MAPBOX_TOKEN}`;
-    } else if (config.MAPBOX_TOKEN && config.MAPBOX_TOKEN !== defaultToken) {
-      return `https://api.mapbox.com/styles/v1/${tile}/tiles/256/{z}/{x}/{y}@2x?access_token=${config.MAPBOX_TOKEN}`;
-      // `http://a.tiles.mapbox.com/styles/v1/${this.props.ui.tiles}/tiles/{z}/{x}/{y}?access_token=${config.MAPBOX_TOKEN}`
-    } else {
-      return osmTileUrl;
-      // "https://api.maptiler.com/maps/bright/256/{z}/{x}/{y}.png?key="
-    }
+    // Use OpenStreetMap as the default basemap
+    return "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
   }
 
   /**
@@ -159,12 +136,9 @@ class Map extends Component {
      * If a tile layer already exists, we update its url. Otherwise, we create it and add it to the map.
      */
     if (this.tileLayer) {
-      this.tileLayer.off("tileerror", this.handleTileError);
       this.tileLayer.setUrl(url);
-      this.tileLayer.on("tileerror", this.handleTileError);
     } else {
       this.tileLayer = L.tileLayer(url);
-      this.tileLayer.on("tileerror", this.handleTileError);
       this.tileLayer.addTo(this.map);
     }
   }
