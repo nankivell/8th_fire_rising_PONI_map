@@ -85,7 +85,13 @@ export function validateDomain(domain, features) {
 
   function validateArray(items, domainKey, schema) {
     items.forEach((item) => {
-      if (domainKey === "events" && item.date === "" && item.time === "")
+      if (
+        domainKey === "events" &&
+        item.date === "" &&
+        item.time === "" &&
+        item.latitude === "" &&
+        item.longitude === ""
+      )
         return;
       validateArrayItem(item, domainKey, schema);
     });
@@ -184,10 +190,18 @@ export function validateDomain(domain, features) {
     event.latitude = event.latitude.replace(",", ".");
     event.longitude = event.longitude.replace(",", ".");
 
-    event.datetime = calcDatetime(event.date, event.time);
-    if (!isValidDate(event.datetime))
-      errorMsg =
-        "Invalid date. It's been dropped, as otherwise timemap won't work as expected.";
+    const rawDate = (event.date || "").trim();
+    const rawTime = (event.time || "").trim();
+    const isNoDate =
+      rawDate === "" || rawDate === "-" || rawDate === "—" || rawDate === "–";
+    if (isNoDate) {
+      event.datetime = null;
+    } else {
+      event.datetime = calcDatetime(rawDate, rawTime);
+      if (!isValidDate(event.datetime))
+        errorMsg =
+          "Invalid date. It's been dropped, as otherwise timemap won't work as expected.";
+    }
 
     if (errorMsg) {
       discardedDomain.events.push({
