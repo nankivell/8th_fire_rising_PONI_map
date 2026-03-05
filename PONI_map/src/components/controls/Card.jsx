@@ -9,112 +9,153 @@ import CardMedia from "./atoms/Media";
 import { makeNiceDate, isEmptyString } from "../../common/utilities";
 import hash from "object-hash";
 
+// Helper function to check if a date is valid (not the epoch/invalid date marker)
+const isValidDate = (dateStr) => {
+  if (!dateStr || dateStr === "-" || isEmptyString(dateStr)) return false;
+  const date = new Date(dateStr);
+  // Check if it's the Unix epoch (1969-12-31) which indicates an invalid date
+  if (date.getFullYear() === 1969 && date.getMonth() === 11 && date.getDate() === 31) {
+    return false;
+  }
+  return !isNaN(date.getTime());
+};
+
 export const generateCardLayout = {
   basic: ({ event }) => {
-    return [
+    const dateValue = event.datetime || event.date || ``;
+    const rows = [
       [
         {
           kind: "title",
           value: event.title || event.description || ``,
         },
       ],
-      [
+    ];
+
+    // Only include date field if it's valid
+    if (isValidDate(dateValue)) {
+      rows.push([
         {
           kind: "date",
           title: "Date of Designation",
-          value: event.datetime || event.date || ``,
+          value: dateValue,
         },
         {
           kind: "text",
           title: "Impacted First Nation(s)",
           value: event.location || `—`,
         },
-        
-      ],
-      [{ kind: "line-break", times: 0.4 }],
-      [
+      ]);
+    } else {
+      rows.push([
         {
           kind: "text",
-          title: "Summary",
-          value: event.summary || ``,
-          scaleFont: 1.1,
+          title: "Impacted First Nation(s)",
+          value: event.location || `—`,
         },
-      ],
-      [
-        {
-          kind: "text",
-          title: "Companies Involved",
-          value: event.companies || ``,
-          scaleFont: 1.1,
-        },
-      ],
-    ];
+      ]);
+    }
+
+    rows.push([{ kind: "line-break", times: 0.4 }]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Summary",
+        value: event.summary || ``,
+        scaleFont: 1.1,
+      },
+    ]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Companies Involved",
+        value: event.companies || ``,
+        scaleFont: 1.1,
+      },
+    ]);
+
+    return rows;
   },
   sourced: ({ event }) => {
-    return [
-     [
+    const dateValue = event.datetime || event.date || ``;
+    const rows = [
+      [
         {
           kind: "title",
           value: event.title || event.description || ``,
         },
       ],
-     [
+    ];
+
+    // Only include date field if it's valid
+    if (isValidDate(dateValue)) {
+      rows.push([
         {
           kind: "date",
           title: "Date of Designation",
-          value: event.datetime || event.date || ``,
+          value: dateValue,
         },
         {
           kind: "text",
           title: "Impacted First Nation(s)",
           value: event.location || `—`,
         },
-        
-      ],
-      [{ kind: "line-break", times: 0.4 }],
-      [
+      ]);
+    } else {
+      rows.push([
         {
           kind: "text",
-          title: "Owners",
-          value: event.Owners || ``,
+          title: "Impacted First Nation(s)",
+          value: event.location || `—`,
         },
-      ],
-      [
-        {
-          kind: "text",
-          title: "Shareholders",
-          value: event.Shareholders || ``,
-        },
-      ],
-      [
-        {
-          kind: "text",
-          title: "Approval Stage",
-          value: event.approval_stage || ``,
-        },
-      ],
-      [
-        {
-          kind: "text",
-          title: "Commodity",
-          value: event.commodity || ``,
-        },
-      ],
-      [
-        {
-          kind: "sources",
-          values: event.sources.flatMap((source) => [
-            source.paths.map((p) => ({
-              kind: "media",
-              title: "Media",
-              value: [
-                { src: p, title: null, graphic: event.graphic === "TRUE" },
-              ],
-            })),
-          ]),
-        },
-      ],
-    ];
+      ]);
+    }
+
+    rows.push([{ kind: "line-break", times: 0.4 }]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Owners",
+        value: event.Owners || ``,
+      },
+    ]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Shareholders",
+        value: event.Shareholders || ``,
+      },
+    ]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Approval Stage",
+        value: event.approval_stage || ``,
+      },
+    ]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Commodity",
+        value: event.commodity || ``,
+      },
+    ]);
+    rows.push([
+      {
+        kind: "sources",
+        values: event.sources.flatMap((source) => [
+          source.paths.map((p) => ({
+            kind: "media",
+            title: "Media",
+            value: [
+              { src: p, title: null, graphic: event.graphic === "TRUE" },
+            ],
+          })),
+        ]),
+      },
+    ]);
+
+    return rows;
   },
 };
 
