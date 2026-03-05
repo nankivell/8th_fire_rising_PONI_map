@@ -63,7 +63,7 @@ const config = {
            * Use [start, end] (strings in ISO 8601 format) for a fixed range.
            * Use undefined for a dynamic initial range based on the browser time.
            */
-          initial: ["2020-01-01T00:00:00.000Z", "2026-12-31T23:59:59.999Z"],
+          initial: ["2025-01-01T00:00:00.000Z", "2025-12-31T23:59:59.999Z"],
           /** The number of days to show when using a dynamic initial range */
           initialDaysShown: 31*12,
           limits: {
@@ -167,7 +167,7 @@ const config = {
       USE_SHAPES: false,
       USE_COVER: true,
       USE_INTRO: false,
-      USE_SATELLITE_OVERLAY_TOGGLE: true,
+      USE_SATELLITE_OVERLAY_TOGGLE: false,
       USE_SEARCH: false,
       USE_SITES: false,
       ZOOM_TO_TIMEFRAME_ON_TIMELINE_CLICK: one_day,
