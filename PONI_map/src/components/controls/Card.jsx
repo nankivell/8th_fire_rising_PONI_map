@@ -10,6 +10,7 @@ import { makeNiceDate, isEmptyString } from "../../common/utilities";
 import hash from "object-hash";
 
 // Helper function to check if a date is valid (not the epoch/invalid date marker)
+// v2: Force rebuild to clear GitHub Pages cache
 const isValidDate = (dateStr) => {
   if (!dateStr || dateStr === "-" || isEmptyString(dateStr)) return false;
   const date = new Date(dateStr);
