@@ -241,7 +241,7 @@
         "Testimony Group 03",
         "Other"
       ],
-      "info": "Showing <span>%n events</span> that occurred between",
+      "info": "Showing <span>%n events</span> that were referred to the Major Projects Office between",
       "reset": "reset dates",
       "default_categories_label": ""
     },
