@@ -74,6 +74,13 @@ export const generateCardLayout = {
         scaleFont: 1.1,
       },
     ]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Project Summary",
+        value: event.project_summary || ``,
+      },
+    ]);
 
     return rows;
   },
@@ -139,6 +146,13 @@ export const generateCardLayout = {
         kind: "text",
         title: "Commodity",
         value: event.commodity || ``,
+      },
+    ]);
+    rows.push([
+      {
+        kind: "text",
+        title: "Project Summary",
+        value: event.project_summary || ``,
       },
     ]);
     rows.push([
