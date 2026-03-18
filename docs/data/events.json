@@ -1,8 +1,9 @@
 [
   {
     "sources": [
-      "src2",
-      "src3"
+      "src4",
+      "src5",
+      "src6"
     ],
     "id": "SP01",
     "title": "LNG Canada Export Terminal",
@@ -21,12 +22,14 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "LNG Export: Primairly North-East Asian markets, China, Japan, South Korea",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "LNG Canada is in Kitimat B.C, Canada's first large scale LNG processing and export facility. Phase 2 is a proposed expansion of doubling production of liquefied natural gas from 14 million tonnes per annum (MTPA) to 28 MTPA. Phase 2 is waiting for a financial investment desicion (FID) in 2026, The global market for gas faces a major glut — with a fivefold increase in supply coming online over the next three years. For over a year there have been issues with the flarestack burning over 15 times then expected. Shell is looking to sell their shares in the project (30% out of their 40%) and Mitsubishi (15%) where Petronas (25%) has successfully offloaded their shares."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src7",
+      "src8"
     ],
     "id": "SP02",
     "title": "Darlington New Nuclear Project",
@@ -45,12 +48,14 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Nuclear Energy: Ontario Grid",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Darlington New Nuclear Project is Canada's first grid-scale Small Modular Reactor (SMR) in the process of being built at the existing Darlington Nuclear Generating Station site in Clarington on the north shore of Lake Ontario. The contractor is Ontario Power Generation (OPG) with partnership between Aecon, AtkinsRèails, and GE Hitachi, the 21 billion major project is set to power 1.2 million homes by 2029. Building Ontario Fund is investing $ 1 billiona and $2 billion through the Canada Growth Fund."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src9",
+      "src10"
     ],
     "id": "SP03",
     "title": "Contrecoeur Terminal Container Project",
@@ -69,12 +74,13 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Container Shipping: Europe and Asia Markets, primairly raw goods, new facility meant to accomodate mineral/gas resources",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Contrecoeur Terminal Container project is an expansion of The Port of Montreal that would increase storage and shipping capacity to 1.15 million twenty-foot equivalent units (TEUs)  that would increase it to 3 million containers travelling through the region annually. The 2.3 billion  infrastructure consists of a 675-meter wharf with two berths, seven-track classification yard, container storage/handling area and road/rail access, and is set to be completed by 2030. It is a priority by the Government of Canada and Port de Montreal."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src11"
     ],
     "id": "SP04",
     "title": "McIlvenna Bay Foran Copper Mine Project",
@@ -94,12 +100,13 @@
     "Shareholders": "Agnico Eagles Mine Lmtd (United States), Fairfax Financial Holdings Limited (Canada), The Public Sector Pension Investment Board (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Copper, Zinc, Gold, Silver;",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "The McIlvenna Bay Foran Copper Mine Project includes an underground mine and surface mineral processing facility located 65 kilometres southwest of Creighton, Saskatchewan. It would produce up to 4,200 tonnes per day of copper and zinc ore concentrates containing gold and silver over a lifespan of up to 40 years."
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src12",
+      "src13"
     ],
     "id": "SP05",
     "title": "Red Chris Porphyry Copper-Gold Project",
@@ -118,12 +125,14 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Copper; Asia-Pacific trading partners",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "The Red Chris Porphyry Copper-Gold Mine (Red Chris) is an open pit mine producing copper, gold, and silver located approximately 80 kilometres south of Dease Lake and 18 kilometres south of the Village of Iskut. It has been operational since 2015. Carney frames Red Chris as connected to the \"northwest critical conservation corridor\" which would include other mines, new power transmission lines and a promised conservation area. It is partially owned by Imperial Metals, the company responsible for the disastrous Mount Polley tailings pond spill in 2014."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src14",
+      "src15"
     ],
     "id": "SP06",
     "title": "Sisson Mine",
@@ -142,12 +151,13 @@
     "Shareholders": "The Todd Corp. Ltd. (New Zealand)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Tungsten, Molybdenum; North American, European and Asian markets",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "The 12.5-square-kilometre project located near Napadogan and Stanley (north of Fredericton) includes an open pit tungsten and molybdenum mine and processing facilities. With a outdated 10-year-old environmental assessment, it's been brought back from the dead after receiving a CAD$20.7M investment from the US Defence Department. While the company has signed agreements with the chiefs of the 6 Wolastoqey Nation communities, the project has received opposition expressed by these same chiefs, the Wolastoqey Grand Council chief, and community members and grandmothers concerned about impacts to the Nashwaak watershed."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src16"
     ],
     "id": "SP07",
     "title": "Crawford Nickel Project",
@@ -166,12 +176,15 @@
     "Shareholders": "(INVESTOR) Agnico Eagles (Canada), (INVESTOR) Samsung SDI (South Korea), (INVESTOR) Anglo-American (Great Britan), (INVESTOR) Taykwa Tagamou Nation (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Nickle, lithium, graphite, cobalt, copper and rare earth elements; Export market to North America",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Canada Nickel Company is proposing the construction, operation, decommissioning and abandonment of an open-pit nickel mine and on-site metal mill, located 42 kilometres north of Timmins, Ontario, which will extract 240,000 tonnes of ore per day for 41 years. In addition to nickel, it is expected to produce chromium, cobalt, palladium, and platinum as well."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src17",
+      "src18",
+      "src19"
     ],
     "id": "SP08",
     "title": "Ksi Lisims",
@@ -190,13 +203,11 @@
     "Shareholders": "Western LNG (United States), TotalEnergies (France)",
     "approval_stage": "Referred to MPO",
     "commodity": "LNG: Export LNG to Asia",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Ksi Lisms is a prposed floating LNG terminal on Pearse Island that will export 12 million tonnes per year which would make it Canada's second biggest LNG terminal exporting to Asian markets. Proponents with Nisga'a Nation, Rockies LNG and Western LNG it will cost 10 billion and has been refered to the Major Projects Office it has yet to obtain a final investment  decison (FID). Ksi Lisms is 100% owned by Western LNG with a joint ventre in the Prince Rupert Gas Transmission pipeline (PRGT) with Nisga'a nation, PRGT is proposed to connect to Ksi Lisms LNG. Both projects have strong opposition from impacted Indigenous Nations including the Gitxsan and Gitanyow nations."
   },
   {
-    "sources": [
-      "src2",
-      "src3"
-    ],
+    "sources": [],
     "id": "SP09",
     "title": "Noveau Monde Graphite Mine [Matawinie Mine &  B\u00e9cancour Battery Materials Plant]",
     "date": "11/13/2025",
@@ -214,7 +225,8 @@
     "Shareholders": "Investissement Qu\u00e9bec (Canada), Canada Growth Fund (Canada), Pallinghurst Graphite Ltd. (Great Britan), General Motors Ventures (United States)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Extraction of anode material for lithium batteries from mine, processed in battery plant for international sale",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Nouveau Monde Graphite is developing an open pit graphite mine that will be integrated with a planned Battery Material Plant to produce spherical graphite for batteries and other advanced manufacturing applications. The feasibility study projects a 25-year life span with an annual processing rate of 2.56 million tonnes."
   },
   {
     "sources": [],
@@ -235,11 +247,13 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Wind Energy",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "The Government of Nova Scotia wants to develop Canada's first off-shore wind prjoect through private sector investments. Initially planned to produce 5,000MW of electricity and expand to 15,000 MW by 2033-2040, NS claims that it could eventually scale up to 60,000 MW. New transmission capacity would be required to bring power to markets in the rest of Canada. In addition to PONI designation, the government of NS has asked the Canadian government for subsidies through Clean Electricity Investment Tax Credits, low-interest loans through the Clean Infrastructure Bank, support for engagement with Mi'kmaq communities, and additional support."
+
   },
   {
-    "sources": [],
-    "id": "SP12",
+    "sources": ["src21", "src22"],
+    "id": "SP21",
     "title": "Pathways Plus",
     "date": "9/11/2025",
     "location": "Treaties 6, 7 and 8",
@@ -256,10 +270,12 @@
     "Shareholders": "CK Hutchison Holdings Limited (China), Li Family (private), Capital Research & Management Co. (United States), ConcoPhilips (United States), Public Investment Fund of the Kingdom of Saudi Arabia (Saudia Arabia)",
     "approval_stage": "Referred to MPO",
     "commodity": "Co2 Capture and Export",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "The Pathways Alliance of six oilsands companies plans to reduce carbon pollution - Pathways Plus is a proposed, large-scale carbon capture, utilization, and storage (CCUS) it will involve a 400km pipeline to transport carbon dioxide (CO2) to underground storage. The 16 billion (factcheck this amount seeing 24.5 billion) project aims to bury 10 to 12 megatonnes of CO2 annually which would be roughly the same equvalinty as 6 weeks of CO2 the oil sands pollute. They are looking for tax payers for 3/4 of the investments."
+
   },
   {
-    "sources": [],
+    "sources": ["src23", "src24", "src25"],
     "id": "SP13",
     "title": "Arctic Economic and Security Corridor",
     "date": "9/11/2025",
@@ -277,10 +293,11 @@
     "Shareholders": "",
     "approval_stage": "Referred to MPO",
     "commodity": "Provide access to mineral deposits; linked to Taltson hydro project",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Essentially a rebrand of the  Slave Geological Province Corridor, this project involves a 900km all-season road and utilities corridor leading to a deepwater port which will be developed at Grays Bay. The Grays Bay port will provide marine access to the Northwest Passage, seen as important for Canadian soveriegnty and defense. The corridor will bring access to mineral deposits in the Slave Geological Province, as well as potentially natural gas and diesel to northern communities. The northernmost leg of the road and port are being developed by West Kitikmeok Resources, while the Government of NWT is partnering with Indigenous governments to develop the 400km road connecting it to the existing highway network."
   },
   {
-    "sources": [],
+    "sources": ["src26", "src27"],
     "id": "SP14",
     "title": "Port of Churchill Plus",
     "date": "9/11/2025",
@@ -298,7 +315,9 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Gas and Minerals; Discussions hint at bringing LNG to European markets e.g. Germany where there is a demand (reducing reliance on Russia) (the star). Other nodes: importing inputs for fertilizer manufacturing, grain exports, cirtical mineral exports mined in Manitoba, supplies shipped to mines (e.g. Whale Cove and Rankin Inlet), the proposal comes with potential power lines powering northern mines",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "The Port of Churchill Plus is a $262.5 million federal/provincial initiative to turn Canada's only arctic deepwater port into a year-round hub. The 5 year project includes upgrades to the Hudson Bay rail line critical mineral storage, all weather roads and specialized icebreakers to facilitate exports of minerals, energy and grains. Proponents are claiming that melting sea ice is expanding its shipping season. Howerver, its position overtop thawing permafrost makes it vulnerable to sinking and floods."
+
   },
   {
     "sources": [],
@@ -319,7 +338,8 @@
     "Shareholders": "CDPQ Infra (Canada), AtkinsR\u00e9alis (Great Britain), SYSTRA Canada (Canada), Keolis (France), SNCF Voyageurs (France), Air Canada (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Transportation",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -340,10 +360,11 @@
     "Shareholders": "Various",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
-    "sources": [],
+    "sources": ["src28"],
     "id": "SP17",
     "title": "Upgrades to the Port of Saint John Cold Storage",
     "date": "-",
@@ -361,7 +382,8 @@
     "Shareholders": "Vanguard Fiduciary Trust Co. (United States), BlackRock Advisors LLC (United States), Fuller & Thaler Asset Management, Inc. (United States), Cramer Rosenthal McGlynn LLC (United States), TCI Fund Management Ltd. (Great Britain), Vanguard Fiduciary Trust Co. (United States)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Uranium",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "This 190,000 square ft storage facility would be large enough to hold 22,000 standard pallets and is scheduled to open in 2029. It aims to \"spur growth in New Brunswick's agricultural industries\" by storing food to then be loaded onto container ships."
   },
   {
     "sources": [],
@@ -382,7 +404,9 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Liqued Petroleum Storage; Connection to Deep Water Shipping and Rail",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": "Greenergy Fuels Canada plans to reactivate the liquid bulk fuels tank farm and pipeline located within the Port of Belledune. This facility would receive products by ship (approximately 10 cargoes per year) and offload through the pipeline to the tank farm. Newly constructed infrastructure would be installed to facilitate the supply of gasoline and diesel products, including renewable diesel, biodiesel, and ethanol blended gasoline, to Northern New Brunswick as well as to load outbound rail cars that will supply other markets. It claims to be aimed at \"welcoming clean energy projects and complementary, low-carbon industries.\""
+
   },
   {
     "sources": [],
@@ -403,7 +427,8 @@
     "Shareholders": "Government of Canada (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Deep Water Container Shipping",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -424,7 +449,8 @@
     "Shareholders": "Anglo American (Great Britain), Teck Resources (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -445,7 +471,8 @@
     "Shareholders": "L1 Capital pty ltd (Australia), Mirae Asset Global ETFs Holdings Ltd. (Hong Kong/South Korea), Van Eck Associates Corporation (United States)",
     "approval_stage": "Referred to MPO",
     "commodity": "Electricity Transmission: Connected to projects like Casino Gold Mine and other critical mineral and hydroelectric development",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -466,7 +493,8 @@
     "Shareholders": "",
     "approval_stage": "Referred to MPO",
     "commodity": "Electricity Transmission; CBC: \"The North Coast Transmission Line is designed to power critical mineral projects and LNG terminals in B.C.\u2019s north.",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -487,7 +515,8 @@
     "Shareholders": "Northfield Capital (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -504,11 +533,12 @@
       "lab4",
       "refno"
     ],
-   "Owners": "Torngat Metals (Canada)",
+    "Owners": "Torngat Metals (Canada)",
     "Shareholders": "Cerberus Capital Management (lead investor) (United States)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Oil Sands Bitumen (Overseas Markets)",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -529,7 +559,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Food: Import-Export Hub, Shipping across Central and Eastern Canada, Europe, South America and APAC",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -550,7 +581,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -572,7 +604,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Oil Sands Bitumen (Overseas Markets)",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -594,7 +627,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Hydro Energy Generation",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -615,7 +649,8 @@
     "Shareholders": "Government of North West Territories (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Electricity Transmission; Hydro seems necessary to power development: N.W.T.'s potential for potash, uranium, lithium, nickel and more kicked in the funding needed to develop the project through the critical minerals fund.",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -632,11 +667,12 @@
       "lab2",
       "refyes"
     ],
-     "Owners": "Nunavut Nukkiksautiit Corp (Canada)",
+    "Owners": "Nunavut Nukkiksautiit Corp (Canada)",
     "Shareholders": "Qulliq Energy Corporation (MOU) (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Deep Water Container Shipping",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -657,7 +693,8 @@
     "Shareholders": "Government of Newfoundland and Labrador (Canada), Canadian Crown Corp (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Hydro Energy Generation",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -678,7 +715,8 @@
     "Shareholders": "Nova Scotia Power (Canada), CIB (Canada), Wskijinu\u2019k Mtmo\u2019taqnuow Agency Ltd. (WMA) (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Electricity Transmission; Upgrade to enhance grid connection",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -699,7 +737,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Regional access road",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -720,7 +759,8 @@
     "Shareholders": "-",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Transit Network: Moving Critical Minerals, Resources, Goods, People",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -741,7 +781,8 @@
     "Shareholders": "-",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Rail bridge that brings numerous commodities by six railways to the Port of Vancouver",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -762,6 +803,7 @@
     "Shareholders": "-",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Infrastructure: Energy, Minerals, Oil and Gas, Transport,",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   }
 ]
