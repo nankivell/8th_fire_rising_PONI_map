@@ -21,7 +21,8 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "LNG Export: Primairly North-East Asian markets, China, Japan, South Korea",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -45,7 +46,8 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Nuclear Energy: Ontario Grid",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -69,7 +71,8 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Container Shipping: Europe and Asia Markets, primairly raw goods, new facility meant to accomodate mineral/gas resources",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -94,7 +97,8 @@
     "Shareholders": "Agnico Eagles Mine Lmtd (United States), Fairfax Financial Holdings Limited (Canada), The Public Sector Pension Investment Board (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Copper, Zinc, Gold, Silver;",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -118,7 +122,8 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Copper; Asia-Pacific trading partners",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -142,7 +147,8 @@
     "Shareholders": "The Todd Corp. Ltd. (New Zealand)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Tungsten, Molybdenum; North American, European and Asian markets",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -166,7 +172,8 @@
     "Shareholders": "(INVESTOR) Agnico Eagles (Canada), (INVESTOR) Samsung SDI (South Korea), (INVESTOR) Anglo-American (Great Britan), (INVESTOR) Taykwa Tagamou Nation (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Nickle, lithium, graphite, cobalt, copper and rare earth elements; Export market to North America",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -190,7 +197,8 @@
     "Shareholders": "Western LNG (United States), TotalEnergies (France)",
     "approval_stage": "Referred to MPO",
     "commodity": "LNG: Export LNG to Asia",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [
@@ -214,7 +222,8 @@
     "Shareholders": "Investissement Qu\u00e9bec (Canada), Canada Growth Fund (Canada), Pallinghurst Graphite Ltd. (Great Britan), General Motors Ventures (United States)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Extraction of anode material for lithium batteries from mine, processed in battery plant for international sale",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -235,7 +244,8 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Wind Energy",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -256,7 +266,8 @@
     "Shareholders": "CK Hutchison Holdings Limited (China), Li Family (private), Capital Research & Management Co. (United States), ConcoPhilips (United States), Public Investment Fund of the Kingdom of Saudi Arabia (Saudia Arabia)",
     "approval_stage": "Referred to MPO",
     "commodity": "Co2 Capture and Export",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -277,7 +288,8 @@
     "Shareholders": "",
     "approval_stage": "Referred to MPO",
     "commodity": "Provide access to mineral deposits; linked to Taltson hydro project",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -298,7 +310,8 @@
     "Shareholders": "-",
     "approval_stage": "Referred to MPO",
     "commodity": "Gas and Minerals; Discussions hint at bringing LNG to European markets e.g. Germany where there is a demand (reducing reliance on Russia) (the star). Other nodes: importing inputs for fertilizer manufacturing, grain exports, cirtical mineral exports mined in Manitoba, supplies shipped to mines (e.g. Whale Cove and Rankin Inlet), the proposal comes with potential power lines powering northern mines",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -319,7 +332,8 @@
     "Shareholders": "CDPQ Infra (Canada), AtkinsR\u00e9alis (Great Britain), SYSTRA Canada (Canada), Keolis (France), SNCF Voyageurs (France), Air Canada (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Transportation",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -340,7 +354,8 @@
     "Shareholders": "Various",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -361,7 +376,8 @@
     "Shareholders": "Vanguard Fiduciary Trust Co. (United States), BlackRock Advisors LLC (United States), Fuller & Thaler Asset Management, Inc. (United States), Cramer Rosenthal McGlynn LLC (United States), TCI Fund Management Ltd. (Great Britain), Vanguard Fiduciary Trust Co. (United States)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Uranium",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -382,7 +398,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Liqued Petroleum Storage; Connection to Deep Water Shipping and Rail",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -403,7 +420,8 @@
     "Shareholders": "Government of Canada (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Deep Water Container Shipping",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -424,7 +442,8 @@
     "Shareholders": "Anglo American (Great Britain), Teck Resources (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -445,7 +464,8 @@
     "Shareholders": "L1 Capital pty ltd (Australia), Mirae Asset Global ETFs Holdings Ltd. (Hong Kong/South Korea), Van Eck Associates Corporation (United States)",
     "approval_stage": "Referred to MPO",
     "commodity": "Electricity Transmission: Connected to projects like Casino Gold Mine and other critical mineral and hydroelectric development",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -466,7 +486,8 @@
     "Shareholders": "",
     "approval_stage": "Referred to MPO",
     "commodity": "Electricity Transmission; CBC: \"The North Coast Transmission Line is designed to power critical mineral projects and LNG terminals in B.C.\u2019s north.",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -487,7 +508,8 @@
     "Shareholders": "Northfield Capital (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -504,11 +526,12 @@
       "lab4",
       "refno"
     ],
-   "Owners": "Torngat Metals (Canada)",
+    "Owners": "Torngat Metals (Canada)",
     "Shareholders": "Cerberus Capital Management (lead investor) (United States)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Oil Sands Bitumen (Overseas Markets)",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -529,7 +552,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Food: Import-Export Hub, Shipping across Central and Eastern Canada, Europe, South America and APAC",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -550,7 +574,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -572,7 +597,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Oil Sands Bitumen (Overseas Markets)",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -594,7 +620,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Hydro Energy Generation",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -615,7 +642,8 @@
     "Shareholders": "Government of North West Territories (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Electricity Transmission; Hydro seems necessary to power development: N.W.T.'s potential for potash, uranium, lithium, nickel and more kicked in the funding needed to develop the project through the critical minerals fund.",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -632,11 +660,12 @@
       "lab2",
       "refyes"
     ],
-     "Owners": "Nunavut Nukkiksautiit Corp (Canada)",
+    "Owners": "Nunavut Nukkiksautiit Corp (Canada)",
     "Shareholders": "Qulliq Energy Corporation (MOU) (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Deep Water Container Shipping",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -657,7 +686,8 @@
     "Shareholders": "Government of Newfoundland and Labrador (Canada), Canadian Crown Corp (Canada)",
     "approval_stage": "Referred to MPO",
     "commodity": "Hydro Energy Generation",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -678,7 +708,8 @@
     "Shareholders": "Nova Scotia Power (Canada), CIB (Canada), Wskijinu\u2019k Mtmo\u2019taqnuow Agency Ltd. (WMA) (Canada)",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Electricity Transmission; Upgrade to enhance grid connection",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -699,7 +730,8 @@
     "Shareholders": "",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Regional access road",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -720,7 +752,8 @@
     "Shareholders": "-",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Transit Network: Moving Critical Minerals, Resources, Goods, People",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -741,7 +774,8 @@
     "Shareholders": "-",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Rail bridge that brings numerous commodities by six railways to the Port of Vancouver",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   },
   {
     "sources": [],
@@ -762,6 +796,7 @@
     "Shareholders": "-",
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Infrastructure: Energy, Minerals, Oil and Gas, Transport,",
-    "time": "00:00"
+    "time": "00:00",
+    "project_summary": ""
   }
 ]
