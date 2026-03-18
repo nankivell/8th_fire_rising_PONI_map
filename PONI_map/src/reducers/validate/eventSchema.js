@@ -22,6 +22,7 @@ function createEventSchema(custom) {
       description: Joi.string().allow(""),
       title: Joi.string().allow(""),
       summary: Joi.string().allow(""),
+      project_summary: Joi.string().allow(""),
       graphic: Joi.string().allow(""),
       date: Joi.string().allow(""),
       time: Joi.string().allow(""),
