@@ -356,6 +356,8 @@ class Toolbar extends Component {
         />
 
         <div id="made-with">
+          Map by Nessie Nankivell
+          <br />
           Made with{" "}
           <a href="https://github.com/forensic-architecture/timemap">TimeMap</a>
           <br />
