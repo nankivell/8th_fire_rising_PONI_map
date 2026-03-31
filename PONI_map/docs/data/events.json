@@ -1,8 +1,9 @@
 [
   {
     "sources": [
-      "src2",
-      "src3"
+      "src4",
+      "src5",
+      "src6"
     ],
     "id": "SP01",
     "title": "LNG Canada Export Terminal",
@@ -22,12 +23,13 @@
     "approval_stage": "Referred to MPO",
     "commodity": "LNG Export: Primairly North-East Asian markets, China, Japan, South Korea",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "LNG Canada is in Kitimat B.C, Canada's first large scale LNG processing and export facility. Phase 2 is a proposed expansion of doubling production of liquefied natural gas from 14 million tonnes per annum (MTPA) to 28 MTPA. Phase 2 is waiting for a financial investment desicion (FID) in 2026, The global market for gas faces a major glut — with a fivefold increase in supply coming online over the next three years. For over a year there have been issues with the flarestack burning over 15 times then expected. Shell is looking to sell their shares in the project (30% out of their 40%) and Mitsubishi (15%) where Petronas (25%) has successfully offloaded their shares."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src7",
+      "src8"
     ],
     "id": "SP02",
     "title": "Darlington New Nuclear Project",
@@ -47,12 +49,13 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Nuclear Energy: Ontario Grid",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Darlington New Nuclear Project is Canada's first grid-scale Small Modular Reactor (SMR) in the process of being built at the existing Darlington Nuclear Generating Station site in Clarington on the north shore of Lake Ontario. The contractor is Ontario Power Generation (OPG) with partnership between Aecon, AtkinsRèails, and GE Hitachi, the 21 billion major project is set to power 1.2 million homes by 2029. Building Ontario Fund is investing $ 1 billiona and $2 billion through the Canada Growth Fund."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src9",
+      "src10"
     ],
     "id": "SP03",
     "title": "Contrecoeur Terminal Container Project",
@@ -72,12 +75,12 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Container Shipping: Europe and Asia Markets, primairly raw goods, new facility meant to accomodate mineral/gas resources",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Contrecoeur Terminal Container project is an expansion of The Port of Montreal that would increase storage and shipping capacity to 1.15 million twenty-foot equivalent units (TEUs)  that would increase it to 3 million containers travelling through the region annually. The 2.3 billion  infrastructure consists of a 675-meter wharf with two berths, seven-track classification yard, container storage/handling area and road/rail access, and is set to be completed by 2030. It is a priority by the Government of Canada and Port de Montreal."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src11"
     ],
     "id": "SP04",
     "title": "McIlvenna Bay Foran Copper Mine Project",
@@ -98,12 +101,12 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Copper, Zinc, Gold, Silver;",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The McIlvenna Bay Foran Copper Mine Project includes an underground mine and surface mineral processing facility located 65 kilometres southwest of Creighton, Saskatchewan. It would produce up to 4,200 tonnes per day of copper and zinc ore concentrates containing gold and silver over a lifespan of up to 40 years."
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src12",
+      "src13"
     ],
     "id": "SP05",
     "title": "Red Chris Porphyry Copper-Gold Project",
@@ -123,12 +126,13 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Copper; Asia-Pacific trading partners",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Red Chris Porphyry Copper-Gold Mine (Red Chris) is an open pit mine producing copper, gold, and silver located approximately 80 kilometres south of Dease Lake and 18 kilometres south of the Village of Iskut. It has been operational since 2015. Carney frames Red Chris as connected to the \"northwest critical conservation corridor\" which would include other mines, new power transmission lines and a promised conservation area. It is partially owned by Imperial Metals, the company responsible for the disastrous Mount Polley tailings pond spill in 2014."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src14",
+      "src15"
     ],
     "id": "SP06",
     "title": "Sisson Mine",
@@ -148,12 +152,12 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Tungsten, Molybdenum; North American, European and Asian markets",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The 12.5-square-kilometre project located near Napadogan and Stanley (north of Fredericton) includes an open pit tungsten and molybdenum mine and processing facilities. With a outdated 10-year-old environmental assessment, it's been brought back from the dead after receiving a CAD$20.7M investment from the US Defence Department. While the company has signed agreements with the chiefs of the 6 Wolastoqey Nation communities, the project has received opposition expressed by these same chiefs, the Wolastoqey Grand Council chief, and community members and grandmothers concerned about impacts to the Nashwaak watershed."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src16"
     ],
     "id": "SP07",
     "title": "Crawford Nickel Project",
@@ -173,12 +177,14 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Nickle, lithium, graphite, cobalt, copper and rare earth elements; Export market to North America",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Canada Nickel Company is proposing the construction, operation, decommissioning and abandonment of an open-pit nickel mine and on-site metal mill, located 42 kilometres north of Timmins, Ontario, which will extract 240,000 tonnes of ore per day for 41 years. In addition to nickel, it is expected to produce chromium, cobalt, palladium, and platinum as well."
+
   },
   {
     "sources": [
-      "src2",
-      "src3"
+      "src17",
+      "src18",
+      "src19"
     ],
     "id": "SP08",
     "title": "Ksi Lisims",
@@ -198,13 +204,10 @@
     "approval_stage": "Referred to MPO",
     "commodity": "LNG: Export LNG to Asia",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Ksi Lisms is a prposed floating liquified natural gas (LNG) terminal on Pearse Island that will export 12 million tonnes per year which would make it Canada's second biggest LNG terminal exporting to Asian markets. Proponents with Nisga'a Nation, Rockies LNG and Western LNG it will cost 10 billion and has been refered to the Major Projects Office it has yet to obtain a final investment  decison (FID). Ksi Lisms is 100% owned by Western LNG with a joint ventre in the Prince Rupert Gas Transmission pipeline (PRGT) with Nisga'a nation, PRGT is proposed to connect to Ksi Lisms LNG. Both projects have strong opposition from impacted Indigenous Nations including the Gitxsan and Gitanyow nations."
   },
   {
-    "sources": [
-      "src2",
-      "src3"
-    ],
+    "sources": [],
     "id": "SP09",
     "title": "Noveau Monde Graphite Mine [Matawinie Mine &  B\u00e9cancour Battery Materials Plant]",
     "date": "11/13/2025",
@@ -223,7 +226,7 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Extraction of anode material for lithium batteries from mine, processed in battery plant for international sale",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Nouveau Monde Graphite is developing an open pit graphite mine that will be integrated with a planned Battery Material Plant to produce spherical graphite for batteries and other advanced manufacturing applications. The feasibility study projects a 25-year life span with an annual processing rate of 2.56 million tonnes."
   },
   {
     "sources": [],
@@ -245,11 +248,12 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Wind Energy",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Government of Nova Scotia wants to develop Canada's first off-shore wind prjoect through private sector investments. Initially planned to produce 5,000MW of electricity and expand to 15,000 MW by 2033-2040, NS claims that it could eventually scale up to 60,000 MW. New transmission capacity would be required to bring power to markets in the rest of Canada. In addition to PONI designation, the government of NS has asked the Canadian government for subsidies through Clean Electricity Investment Tax Credits, low-interest loans through the Clean Infrastructure Bank, support for engagement with Mi'kmaq communities, and additional support."
+
   },
   {
-    "sources": [],
-    "id": "SP12",
+    "sources": ["src21", "src22"],
+    "id": "SP21",
     "title": "Pathways Plus",
     "date": "9/11/2025",
     "location": "Treaties 6, 7 and 8",
@@ -267,10 +271,11 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Co2 Capture and Export",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Pathways Alliance of six oilsands companies plans to reduce carbon pollution - Pathways Plus is a proposed, large-scale carbon capture, utilization, and storage (CCUS) it will involve a 400km pipeline to transport carbon dioxide (CO2) to underground storage. The 16 billion (factcheck this amount seeing 24.5 billion) project aims to bury 10 to 12 megatonnes of CO2 annually which would be roughly the same equvalinty as 6 weeks of CO2 the oil sands pollute. They are looking for tax payers for 3/4 of the investments."
+
   },
   {
-    "sources": [],
+    "sources": ["src23", "src24", "src25"],
     "id": "SP13",
     "title": "Arctic Economic and Security Corridor",
     "date": "9/11/2025",
@@ -289,10 +294,10 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Provide access to mineral deposits; linked to Taltson hydro project",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Essentially a rebrand of the Slave Geological Province Corridor, this project involves a 900-kilometer all-season road and utilities corridor leading to a deepwater port which would be developed at Grays Bay. The Grays Bay port would provide marine access to the Northwest Passage, seen as important for Canadian sovereignty and defense. The corridor will provide access to mineral deposits in the Slave Geological Province. It may also bring natural gas and diesel to northern communities. The northernmost leg of the road and port are being developed by West Kitikmeok Resources, while the Government of Northwest Territories is partnering with Indigenous governments to develop a 400-kilometer road segment connecting it to the existing highway network."
   },
   {
-    "sources": [],
+    "sources": ["src26", "src27"],
     "id": "SP14",
     "title": "Port of Churchill Plus",
     "date": "9/11/2025",
@@ -311,10 +316,11 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Gas and Minerals; Discussions hint at bringing LNG to European markets e.g. Germany where there is a demand (reducing reliance on Russia) (the star). Other nodes: importing inputs for fertilizer manufacturing, grain exports, cirtical mineral exports mined in Manitoba, supplies shipped to mines (e.g. Whale Cove and Rankin Inlet), the proposal comes with potential power lines powering northern mines",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Port of Churchill Plus is a $262.5 million federal/provincial initiative to turn Canada's only arctic deepwater port into a year-round hub. The 5 year project includes upgrades to the Hudson Bay rail line, critical mineral storage, all weather roads and specialized icebreakers to facilitate exports of minerals, energy and grains. Proponents are claiming that melting sea ice is expanding its shipping season. However, the rail line's position overtop thawing permafrost makes it vulnerable to sinking and floods."
+
   },
   {
-    "sources": [],
+    "sources": ["src55", "src56", "src57"],
     "id": "SP15",
     "title": "Alto High-Speed Rail",
     "date": "9/11/2025",
@@ -333,16 +339,16 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Transportation",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Alto High-Speed Rail would be Canada's first high-speed railway, that will intend to run at speeds of 300 kilometers per hour, spanning approximately 1,000 kilometers from Toronto to Québec City and connecting major cities within the corridor. It's expected to cost between $60 billion and $90 billion overall. There is a lot of resistance along the proposed rural route that will divide some communities with protective fencing lining the tracks, requiring community members to use bridges only found every 20 kilometers to cross the railway. Public input will be collected until April 24th, 2026. There are two routes that are being considered: a northern option and a southern option."
   },
   {
-    "sources": [],
+    "sources": ["src54"],
     "id": "SP16",
     "title": "Critical Minerals Strategy (Ring of Fire in Ontario, but also Fosse NL/QC, NorthWest Critical Minerals, Critical Conservation Corridor BC)",
     "date": "9/11/2025",
     "location": "Treaty 9",
-    "latitude": "52.741385",
-    "longitude": "-86.29599929",
+    "latitude": "56.38870881374729",
+    "longitude": "-67.18356550994618",
     "graphic": "FALSE",
     "associations": [
       "asc3",
@@ -355,10 +361,10 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "This strategy focuses on critical minerals projects in areas such as Fosse du Labrador in Quebec and Labrador, the Northwest Critical Mineral and Conservation Corridor in BC, and the Ring of Fire in Ontario. It includes a focuses on accelerating infrastructure development, as well as building value chains for both \"clean technology\" and defense applications. In the Ring of Fire, a 5000-square-kilometer mineral-rich remote region of James Bay, all-season roads would be needed to access large deposits of nickel, copper, and chromite. The Ontario government wants to speed up construction of the all season roads to begin as early as 2026. There is opposition from some Indigenous communities that will be impacted by the all-season road and the Ring of Fire Project."
   },
   {
-    "sources": [],
+    "sources": ["src28"],
     "id": "SP17",
     "title": "Upgrades to the Port of Saint John Cold Storage",
     "date": "-",
@@ -377,7 +383,7 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Uranium",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "This 190,000 square ft storage facility would be large enough to hold 22,000 standard pallets and is scheduled to open in 2029. It aims to \"spur growth in New Brunswick's agricultural industries\" by storing food to then be loaded onto container ships."
   },
   {
     "sources": [],
@@ -399,7 +405,8 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Liqued Petroleum Storage; Connection to Deep Water Shipping and Rail",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Greenergy Fuels Canada plans to reactivate the liquid bulk fuels tank farm and pipeline located within the Port of Belledune. This facility would receive products by ship (approximately 10 cargoes per year) and offload through the pipeline to the tank farm. Newly constructed infrastructure would be installed to facilitate the supply of gasoline and diesel products, including renewable diesel, biodiesel, and ethanol blended gasoline, to Northern New Brunswick as well as to load outbound rail cars that will supply other markets. It claims to be aimed at \"welcoming clean energy projects and complementary, low-carbon industries.\""
+
   },
   {
     "sources": [],
@@ -421,10 +428,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Deep Water Container Shipping",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "What is proposed is a three-berth marine container terminal to be constructed at Roberts Bank in Delta, British Columbia, approximately 35 kilometers south of Vancouver. It will join existing Deltaport and Westshore Terminals, adding additional capacity to receive the equivalent of 2.4 million twenty-foot containers per year."
   },
   {
-    "sources": [],
+    "sources": ["src29", "src30", "src31"],
     "id": "SP20",
     "title": "Anglo-Teck Strategic Minerals Initiative",
     "date": "-",
@@ -443,7 +450,7 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Teck Resources Ltd. is hoping to merge with UK-based Anglo American PLC to create what's described in the media as \"a $70 billion critical minerals-focused giant\". Teck owns the Highland Valley copper mine in Canada, whereas Anglo owns copper assets in Chile. The $53 billion deal is primarily focused on boosting copper production, including from mines in the Golden Triangle in BC. Additionally, Teck notes the opportunities to increase germanium and other specialty critical minerals production from Trail, BC. The companies plan to support the establishment of new critical minerals processing facilities in Canada and invest at least $300 million in critical minerals exploration and technology in Canada."
   },
   {
     "sources": [],
@@ -465,10 +472,10 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Electricity Transmission: Connected to projects like Casino Gold Mine and other critical mineral and hydroelectric development",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Rook I Project is a proposed underground uranium mine on the Patterson Lake peninsula in the southwestern Athabasca Basin in northern Saskatchewan. It would produce up to 14 million kilograms of uranium oxide annually for twenty-four years."
   },
   {
-    "sources": [],
+    "sources": ["src32", "src33", "src34"],
     "id": "SP22",
     "title": "Minago Nickel Project",
     "date": "-",
@@ -487,10 +494,10 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Electricity Transmission; CBC: \"The North Coast Transmission Line is designed to power critical mineral projects and LNG terminals in B.C.\u2019s north.",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Canada's first sole First Nation's owned project Minago Nickel Project located in the Thompson nickel belt. With a core storage and management facility located in Grand Rapids, the 192-square-kilometer project involves two mining leases covering 4.25 square kilometres and 94 mining claims, making this the second largest nickel belt in Canada."
   },
   {
-    "sources": [],
+    "sources": ["src36", "src37", "src35"],
     "id": "SP23",
     "title": "Ring of Fire",
     "date": "9/11/2025",
@@ -509,10 +516,10 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Critical Minerals: Ontario, Canada, U.S, Asia",
     "time": "00:00",
-    "project_summary": ""
-  },
+    "project_summary": "The Ring of Fire covers 5,000 square kilometres in northern Ontario on Treaty 9 territory. The crescent shaped deposit contains critical minerals such as nickel, cooper, chromite and platinum. The first planned mine is a nickel mine named Eagle's Nest owned by a junior Australian company named Wyloo, which the Ford government has exempted from having to complete an Environmental Assessment (EA) through Bill 5."
+    },
   {
-    "sources": [],
+    "sources": ["src38", "src39"],
     "id": "SP24",
     "title": "Strange Lake Torngat Metals Ltd",
     "date": "-",
@@ -531,10 +538,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Oil Sands Bitumen (Overseas Markets)",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The proposed open-pit rare earth mine located near Lac Brisson in Nunavik would extract up to 36,000 tonnes per day (t/d) of material over 30 years. A 170-km access road would be constructed to transport ore concentrate to new port facilities at Voisey's Bay on the Labrador coast during the winter. During the summer, the concentrate would from there be shipped to a new separation plant in Sept-Îles, Quebec with a capacity of 1,000 t/day. The road cuts through the Labrador Inuit Settlement Lands and crosses the migration route of the George River Caribou, a herd which has already seen an unprecedented collapse to 1% of its former population. There are also concerns regarding potential uranium contamination leading to exposure to radiation at Sept-Îles."
   },
   {
-    "sources": [],
+    "sources": ["src40"],
     "id": "SP25",
     "title": "Yukon-B.C Grid Connection",
     "date": "9/11/2025",
@@ -553,10 +560,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Food: Import-Export Hub, Shipping across Central and Eastern Canada, Europe, South America and APAC",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "This project aims to connect Yukon to BC and the North American Power Grid via a 800-kilometer high-voltage transmission line. A Yukon Development Report speaks to electrifying diesel-reliant communities but also how the project might help supply the energy needs of existing and prospective mines. For example, it could allow the electrification of the proposed Casino Copper-Gold Project which would otherwise use natural gas. Banyan Gold Corp also suggested their AurMac project would benefit from this transmission line. The project is intended to increase the feasibility of mining in the area to boost the extraction of critical minerals in line with NATO defence goals."
   },
   {
-    "sources": [],
+    "sources": ["src41"],
     "id": "SP26",
     "title": "North Coast Transmission Line (NCTL)",
     "date": "11/13/2025",
@@ -575,10 +582,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Critical Minerals: Copper, Germanium, Defense-Minerals",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The North Coast Transmission Line (NCTL) is a 450 kilometer long 500 kilovolt (kV) BC Hydro project linking Prince George to Terrace BC in two phases. NCTL is set to supply up to 600 megawatts of power to industry like Ksi Lisims, and mining companies. The project is estimated to cost between $6 billion and $12 billion dollars."
   },
   {
-    "sources": [],
+    "sources": ["src42", "src43"],
     "id": "SP27",
     "title": "Dredging Burrard Inlet for TMX Tankers",
     "date": "-",
@@ -598,10 +605,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Oil Sands Bitumen (Overseas Markets)",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Vancouver Fraser Port Authority plans to dredge the navigation channel under Vancouver's Second Narrows Bridge to allow tankers carrying oil sands bitumen to transit the inlet at fuller loads. At present, Aframax-class tankers cannot leave the Westridge Terminal fully loaded. Dredging would enable these tankers to load more bitumen transported via the Trans Mountain (TMX) pipeline. The process is known to have significant ecological impacts on benthic habitat and water quality, and could accelerate shoreline erosion. Because Burrard Inlet is highly polluted, disturbing the bottom would also stir up long-settled contaminants, threatening both ecological recovery and food sovereignty for Tsleil Waututh Nation."
   },
   {
-    "sources": [],
+    "sources": ["src44", "src45", "src46"],
     "id": "SP28",
     "title": "Northwest Coast Oil Pipeline",
     "date": "-",
@@ -621,7 +628,7 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Hydro Energy Generation",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Northwest Coast Oil Pipeline is a proposed bitumin pipeline which would bring up to 1 million barrels per day (bpd) of crude oil from Alberta's oil sands to British Columbia's Coast, where there is a moratorium on oil tankers. In November 2025 the Alberta government and federal government signed a Memorandum of Understanding (MOU) stating that the moratorium may be lifted to benefit an oil pipeline. Many Indigenous Rights and Title Holders including Coastal First Nations along with BC Premier David Eby have publically opposed the project. The Alberta government has committed $14 million towards early plannng work, after which there would be a search for private and Indigenous partners."
   },
   {
     "sources": [],
@@ -643,7 +650,7 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Electricity Transmission; Hydro seems necessary to power development: N.W.T.'s potential for potash, uranium, lithium, nickel and more kicked in the funding needed to develop the project through the critical minerals fund.",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The project aims to double the Northwest Territories’ hydro capacity by connecting the Snare hydro system (north of Great Slave Lake) with the Taltson hydro system (south of Great Slave Lake) through a 320-kilometre transmission line. This unified hydro grid will link 11 communities and serve over 70% of the NWT’s population with 120 megawatts (MW) of renewable energy. It to power industry in the Slave Geological Province of NWT, where there are deposits of potash, uranium, lithium and nickel. The mineral-rich Slave Geological Province is also a focus in the Arctic Economic and Security Corridor."
   },
   {
     "sources": [],
@@ -665,10 +672,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Deep Water Container Shipping",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Nunavut Nukkiksautiit Corporation is planning a hydroelectric facility near Iqaluit to replace the city's diesel-generated electricity. Led by Nunavut's first fully Inuit-owned clean energy developer, the project aims to bring energy security, reducing emissions, and support local economic growth, while also promising to advance reconciliation and Arctic sovereignty."
   },
   {
-    "sources": [],
+    "sources": ["src47", "src48"],
     "id": "SP31",
     "title": "Gull Island Power Plant",
     "date": "-",
@@ -687,7 +694,7 @@
     "approval_stage": "Referred to MPO",
     "commodity": "Hydro Energy Generation",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "This 2,250 megawatt (MW) power plant would be one of 4 components of a planned Churchill Falls hydroelectricity project in Labrador. The project would be built by a subsidiary of Hydro‑Québec, who signed an Agreement-In-Principle with the Innu Nation in 2025 as part of an out-of-court settlement for ecological and cultural damage caused by their existing Churchill Falls power plant. While the agreement was supposed to provide a guideline going forward for new projects such as Gull Island, resistance from community members has already begun, including through blocking access."
   },
   {
     "sources": [],
@@ -709,10 +716,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Electricity Transmission; Upgrade to enhance grid connection",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "This project is a new 345 kilovolt (kV) transmission line which runs approximately 160 kilometers along an existing line from Onslow, Nova Scotia to Salisbury, New Brunswick. It aims to increase inter-provincial power grid reliability and support expansion of renewable energy production."
   },
   {
-    "sources": [],
+    "sources": ["src49"],
     "id": "SP33",
     "title": "Mackenzie Valley Highway",
     "date": "-",
@@ -731,10 +738,10 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Regional access road",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Project entails a new two-lane 1,200-kilometer gravel road between Wrigley and Prohibition Creek (located 28 kilometers southeast of Norman Wells). It will connect to existing bridges along the Mackenzie Valley Winter Road alignment and aims to create an all-season economic corridor connecting will connect Yellowknife and Inuvik. The Government of Northwest Territories promises it will \"mitigate the existing impacts of climate change on increasingly isolated communities in the Mackenzie Valley, open the region to mineral exploration and tourism and support Canada’s arctic sovereignty and security.\" Pehdzéh Kı̨ First Nation has been pushing for the highway's proposed route to be changed and says it would interfere with their treaty rights."
   },
   {
-    "sources": [],
+    "sources": ["src50"],
     "id": "SP34",
     "title": "Trans-Canada Highway Proposals [Highway 11-17]",
     "date": "-",
@@ -753,7 +760,7 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Transit Network: Moving Critical Minerals, Resources, Goods, People",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "The Federation of Northern Ontario Municipalities (FONOM) wants the Ontario and federal governments to invest in upgrades to Highways 11 and 17. The project is framed as an opportunity to enhance trade between the east and west of Canada. Furthermore, the FONOM president says other major nation-building projects will likely involve the transportation of large industrial materials for construction."
   },
   {
     "sources": [],
@@ -775,12 +782,12 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Rail bridge that brings numerous commodities by six railways to the Port of Vancouver",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "Although little information is known about this possible project, this appears to be a bid to replace and/or increase the capacity of a rail bridge between New Westminster and Surrey. The project does not appear to have any formal proposal outlining a specific project and does not appear to be in any formal planning phase nor is it in construction. The current single-track swing rail bridge constructed in 1904 is considered a key bottleneck in the regional rail network, including for rail cargo moving to and from the Port of Vancouver. Discussions about replacing the bridge to increase capacity have been ongoing."
   },
   {
-    "sources": [],
+    "sources": ["src51", "src52"],
     "id": "SP36",
-    "title": "Western Collaboration on the Advancement of Economic Corridors [MOU]",
+    "title": "Western Collaboration on the Advancement of Economic Corridors",
     "date": "-",
     "location": "Various: Cross Western Canada",
     "latitude": "59.9947370000000",
@@ -797,6 +804,6 @@
     "approval_stage": "Not yet referred to MPO",
     "commodity": "Infrastructure: Energy, Minerals, Oil and Gas, Transport,",
     "time": "00:00",
-    "project_summary": ""
+    "project_summary": "In May of 2025, Western premiers met and identifed a need for “Nation-building infrastructure in Western Canada, such as highways, railways, ports, airports, pipelines, nuclear projects and electricity transmission systems” to bring \"oil and gas, liquefied natural gas, uranium, electricity and hydroelectricity to Canadian and world markets.\" Specifically, they have put forward the idea of an economic corridor linking Prince Rupert and B.C.’s coast to the Port of Churchill in Manitoba and Grays Bay in Nunavut, although BC has expressed opposition to this idea. See Northwest Coast Oil Pipeline. See also Port of Churchill. Premiers also called for electrical transmission infrastructure to power critical mineral development in remote areas."
   }
 ]
