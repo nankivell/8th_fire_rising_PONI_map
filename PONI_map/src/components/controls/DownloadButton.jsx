@@ -7,7 +7,7 @@ import config from "../../../config";
 
 export class DownloadButton extends Component {
   onDownload(format, domain) {
-    let filename = `ukr-civharm-${dayjs().format("YYYY-MM-DD")}`;
+    let filename = `PONI-map-data-${dayjs().format("YYYY-MM-DD")}`;
     if (format === "api") {
       console.log(config["API_DATA"])
       window.open(config["API_DATA"], '_blank');
