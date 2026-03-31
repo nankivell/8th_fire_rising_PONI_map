@@ -13,7 +13,6 @@ const DownloadPanel = ({ language, title, description, domain }) => {
         }}
       />
       <hr />
-      <DownloadButton language={language} domain={domain} format="api" />
       <DownloadButton language={language} domain={domain} format="csv" />
       <DownloadButton language={language} domain={domain} format="json" />
     </div>
