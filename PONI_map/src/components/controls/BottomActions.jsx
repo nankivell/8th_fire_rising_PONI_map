@@ -28,6 +28,8 @@ function BottomActions(props) {
           ) : null}
         </div>
         <div style={{ fontSize: 9, paddingTop: 10 }}>
+          Map by Nessie Nankivell
+          <br />
           Made with{" "}
           <a href="https://github.com/forensic-architecture/timemap">TimeMap</a>
           <br />
